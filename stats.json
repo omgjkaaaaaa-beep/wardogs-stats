@@ -4,68 +4,150 @@
   "developers": [
     "BULKHEAD"
   ],
-  "updated_at": "2026-09-30T20:39:03.175483+00:00",
+  "updated_at": "2026-09-30T20:42:33.468276+00:00",
   "player_count": 217700,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "percent": 78.6,
-      "display_name": "This is WARDOGS",
-      "description": "Complete the Tutorial"
+      "display_name": "Это WARDOGS",
+      "description": "Пройдите обучение."
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "percent": 23.9,
-      "display_name": "Ricochet",
-      "description": "Kill an enemy player with a ricochet bullet"
+      "display_name": "Рикошет",
+      "description": "Убейте противника рикошетом пули."
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "percent": 20.5,
-      "display_name": "Fat Stacks",
-      "description": "Reach $100,000 net profit in a single life"
+      "display_name": "Толстая пачка",
+      "description": "Получите 100 000 долларов чистой прибыли за одну жизнь."
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
       "percent": 13.4,
-      "display_name": "That was rude",
-      "description": ""
+      "display_name": "Как грубо",
+      "description": "Скрытое достижение: описание не опубликовано разработчиком."
     },
     {
       "name": "ACH_COMBAT_LONG_SHOT",
       "percent": 10.8,
-      "display_name": "Long Shot",
-      "description": "Get a kill from over 950m away"
+      "display_name": "Дальний выстрел",
+      "description": "Убейте противника с расстояния более 950 метров."
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "percent": 8.7,
-      "display_name": "Top Dog",
-      "description": "Finish the match as the top cash earner across all teams"
+      "display_name": "Главный пёс",
+      "description": "Завершите матч с наибольшим заработком среди игроков всех команд."
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
       "percent": 6.8,
-      "display_name": "Do Not Resuscitate",
-      "description": "Kill an enemy player using the defibrillator charge"
+      "display_name": "Не реанимировать",
+      "description": "Убейте противника разрядом дефибриллятора."
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
       "percent": 6.4,
-      "display_name": "CZ Survivor",
-      "description": "Spend 60 minutes in the CZ without dying"
+      "display_name": "Выживший в зоне контроля",
+      "description": "Проведите 60 минут в зоне контроля, не погибнув."
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "percent": 5.0,
-      "display_name": "Clean Sweep",
-      "description": "Win a match without another team scoring a point"
+      "display_name": "Победа всухую",
+      "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка."
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",
       "percent": 0.0,
-      "display_name": "Big Spender",
-      "description": "Spend $100,000 on a single loadout"
+      "display_name": "Большие траты",
+      "description": "Потратьте 100 000 долларов на один комплект снаряжения."
+    }
+  ],
+  "news": [
+    {
+      "id": "1845383656376490",
+      "title": "WARDOGS: обновление 0.1.2",
+      "summary": "В объявлении от 30 сентября разработчики сообщили о технических работах с 11:00 по московскому времени продолжительностью около часа. Патч исправляет сбой WD-L020 в Windows 11 и уязвимости, позволявшие получать деньги и опыт. Проверки реанимации перенесены на сервер; изменены награды за транспорт, уничтожение строящихся объектов и доставку поддонов вне зоны контроля.\n\nВ меню развёртывания появились отдельные варианты официальных, общественных, пехотных серверов и серверов для игроков низкого уровня. Улучшены фильтры, отображение очереди, поддержка геймпада и анонимный режим. Администраторам доступны ежедневные перезапуски и ограничения доступа к RCON. Также исправлены ошибки оружия, построек и урона от пушек.\n\nРазработчики предупреждают о возможных постоянных блокировках за повторное злоупотребление экономикой. Во втором сезоне запланированы новые условия на картах, снаряжение и изменения баланса; подробности обещаны на следующей неделе.",
+      "translated": true,
+      "date": 1790751426,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656376490"
+    },
+    {
+      "id": "1844751498227777",
+      "title": "Три миллиона проданных копий и номинация Golden Joystick",
+      "summary": "За чуть больше двух недель раннего доступа WARDOGS достигла трёх миллионов проданных копий. Разработчики поблагодарили игроков за поддержку.\n\nИгра номинирована на Golden Joystick Awards в категории «Лучшая игра раннего доступа 2026». Команда приглашает игроков проголосовать и показывает подборку моментов сообщества #WARDOGS100k за вторую неделю. Разработка второго сезона продолжается; новые подробности обещаны на следующей неделе.",
+      "translated": true,
+      "date": 1790446624,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844751498227777"
+    },
+    {
+      "id": "1844115010504839",
+      "title": "Второй сезон: тизер и дата выхода",
+      "summary": "Разработчики анонсировали второй сезон WARDOGS: он выйдет 15 октября 2026 года. В публикации представлен видеотизер; дополнительные подробности обещаны позднее.",
+      "translated": true,
+      "date": 1790096018,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844115010504839"
+    },
+    {
+      "id": "1843481262705755",
+      "title": "WARDOGS: два миллиона проданных копий",
+      "summary": "Разработчики объявили о двух миллионах проданных копий и поблагодарили сообщество за первые выходные после запуска. По словам команды, наблюдать за тем, как игроки играют с друзьями, было особенно приятно. В оригинале опубликована инфографика с итогами запуска; её числовые данные в этот пересказ не включены.",
+      "translated": true,
+      "date": 1789508698,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262705755"
+    },
+    {
+      "id": "1843481262698449",
+      "title": "Технические работы и патч 0.11",
+      "summary": "Разработчики запланировали технические работы на 14 сентября 2026 года с 11:00 по московскому времени примерно на час. Они также сообщили о пике в 400 000 одновременных игроков.\n\nОбновление разделяет браузер серверов на официальные и общественные, улучшает поиск и фильтры общественных серверов, сохраняет их идентификаторы после смены карты и перезапуска. На неделю для общественных серверов объявлен дополнительный денежный бонус 5% в конце матча.\n\nИсправлены денежные эксплойты и часть сбоев GPU, увеличена ёмкость серверов в Азии. В планах — избранные серверы, приоритетные очереди, сообщение дня и другие улучшения. Разработчики отдельно предупредили о блокировках за злоупотребление экономикой и фарм опыта.",
+      "translated": true,
+      "date": 1789251999,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262698449"
+    },
+    {
+      "id": "1843481262693807",
+      "title": "1.25 MILLION COPIES SOLD!",
+      "summary": null,
+      "translated": false,
+      "date": 1789088725,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693807"
+    },
+    {
+      "id": "1843481262693332",
+      "title": "Launch Stability Hotfix #1",
+      "summary": null,
+      "translated": false,
+      "date": 1789071633,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693332"
+    },
+    {
+      "id": "1843481262691760",
+      "title": "WARDOGS LAUNCH TRAILER",
+      "summary": null,
+      "translated": false,
+      "date": 1789035886,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262691760"
+    },
+    {
+      "id": "1843481262690549",
+      "title": "Pre-Load Live & Season 1 Changelog",
+      "summary": null,
+      "translated": false,
+      "date": 1788993969,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262690549"
+    },
+    {
+      "id": "1842846814456311",
+      "title": "The 11th Reason NOT To Buy WARDOGS",
+      "summary": null,
+      "translated": false,
+      "date": 1788886862,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1842846814456311"
     }
   ],
   "sources": [

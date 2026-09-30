@@ -4,48 +4,68 @@
   "developers": [
     "BULKHEAD"
   ],
-  "updated_at": "2026-09-30T20:17:44.029600+00:00",
-  "player_count": 222237,
+  "updated_at": "2026-09-30T20:39:03.175483+00:00",
+  "player_count": 217700,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
-      "percent": 78.6
+      "percent": 78.6,
+      "display_name": "This is WARDOGS",
+      "description": "Complete the Tutorial"
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
-      "percent": 23.9
+      "percent": 23.9,
+      "display_name": "Ricochet",
+      "description": "Kill an enemy player with a ricochet bullet"
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
-      "percent": 20.5
+      "percent": 20.5,
+      "display_name": "Fat Stacks",
+      "description": "Reach $100,000 net profit in a single life"
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
-      "percent": 13.4
+      "percent": 13.4,
+      "display_name": "That was rude",
+      "description": ""
     },
     {
       "name": "ACH_COMBAT_LONG_SHOT",
-      "percent": 10.8
+      "percent": 10.8,
+      "display_name": "Long Shot",
+      "description": "Get a kill from over 950m away"
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
-      "percent": 8.7
+      "percent": 8.7,
+      "display_name": "Top Dog",
+      "description": "Finish the match as the top cash earner across all teams"
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
-      "percent": 6.8
+      "percent": 6.8,
+      "display_name": "Do Not Resuscitate",
+      "description": "Kill an enemy player using the defibrillator charge"
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
-      "percent": 6.4
+      "percent": 6.4,
+      "display_name": "CZ Survivor",
+      "description": "Spend 60 minutes in the CZ without dying"
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
-      "percent": 5.0
+      "percent": 5.0,
+      "display_name": "Clean Sweep",
+      "description": "Win a match without another team scoring a point"
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",
-      "percent": 0.0
+      "percent": 0.0,
+      "display_name": "Big Spender",
+      "description": "Spend $100,000 on a single loadout"
     }
   ],
   "sources": [

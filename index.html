@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
   <title>WARDOGS — Инструменты, гайды и новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=catalog-1">
-  <script src="./app.js?v=catalog-1" defer></script>
-  <script src="./calculator.js?v=catalog-1" defer></script>
-  <script src="./budget.js?v=catalog-1" defer></script>
-  <script src="./catalog.js?v=catalog-1" defer></script>
+  <link rel="stylesheet" href="./style.css?v=maps-1">
+  <script src="./app.js?v=maps-1" defer></script>
+  <script src="./calculator.js?v=maps-1" defer></script>
+  <script src="./budget.js?v=maps-1" defer></script>
+  <script src="./catalog.js?v=maps-1" defer></script>
+  <script src="./planner.js?v=maps-1" defer></script>
 </head>
 <body>
   <header>
     <a class="logo" href="./">W<span>△</span>RDOGS <small>RU</small></a>
     <nav aria-label="Разделы">
       <a class="active" href="#content">Новости</a>
+      <a href="#map-planner">Карты</a>
       <a href="#guides">Гайды</a>
       <a href="#tools">Инструменты</a>
       <a href="#achievements">Достижения</a>
@@ -33,6 +35,14 @@
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
     <div class="tool-launcher" aria-label="Быстрый выбор инструмента"><a href="#budget-tool"><span>01 / СНАРЯЖЕНИЕ</span><strong>Собрать комплект →</strong><small>Предметы, цены и бюджет</small></a><a href="#compare-tool"><span>02 / СРАВНЕНИЕ</span><strong>Выбрать предметы →</strong><small>Цена, масса и доступ по роли</small></a><a href="#vehicle-tool"><span>03 / ТРАНСПОРТ</span><strong>Посчитать расходы →</strong><small>Покупка и разблокировка</small></a><a href="#range-tool"><span>04 / КООРДИНАТЫ</span><strong>Рассчитать расстояние →</strong><small>Дальность и направление</small></a></div>
     <section id="online" aria-label="Онлайн WARDOGS" aria-live="polite"></section>
+    <section id="map-planner" aria-label="Планировщик карты">
+      <div class="section-head"><div><div class="eyebrow">КАРТЫ И ПОЗИЦИИ</div><h2>Планировщик на карте</h2></div></div>
+      <div class="about"><p><a id="external-map" href="https://wardogs.n4lab.dev/?map=bakurani&mode=view&lang=ru" target="_blank" rel="noopener noreferrer">Открыть карту Bakurani в N4Lab ↗</a></p><p class="muted">Внешняя карта сообщества: описана автором в Steam. Здесь её данные не копируются.</p><p>Поставьте свою позицию и цель или отметьте маршрут. По умолчанию здесь координатная сетка, без рельефа. Можно загрузить своё изображение карты и задать его границы по координатам игры.</p>
+      <div class="budget-fields"><label>Название плана<select id="plan-map"><option>Bakurani</option><option>Ozeti</option><option>Zestafona</option></select></label><label>Режим клика<select id="plan-mode"><option value="origin">Моя позиция</option><option value="target">Цель</option><option value="route">Точка маршрута</option></select></label><label>Изображение карты<input id="plan-image" type="file" accept="image/png,image/jpeg,image/webp"></label></div>
+      <details class="map-calibration"><summary>Границы изображения и направление оси Y</summary><p class="muted">Совместите границы изображения с координатами карты. Начальные 0–160 — диапазон сетки для планирования, а не подтверждённая привязка каждой карты.</p><div class="budget-fields"><label>X слева<input id="map-x-min" type="number" value="0" step="any"></label><label>X справа<input id="map-x-max" type="number" value="160" step="any"></label><label>Y снизу<input id="map-y-min" type="number" value="0" step="any"></label><label>Y сверху<input id="map-y-max" type="number" value="160" step="any"></label></div></details>
+      <canvas id="plan-canvas" width="900" height="600" aria-label="Сетка карты: используйте поля координат для размещения точек без мыши"></canvas>
+      <div class="budget-fields"><label>X точки<input id="plan-x" type="number" step="any" placeholder="98.43"></label><label>Y точки<input id="plan-y" type="number" step="any" placeholder="110.38"></label><label>Подпись<input id="plan-label" maxlength="50" placeholder="Например: высота"></label></div><div class="tool-actions"><button id="plan-add" type="button">Добавить по координатам</button><button id="plan-undo" type="button">Убрать последнюю точку маршрута</button><button id="plan-clear" type="button">Очистить точки</button><button id="plan-export" type="button">Скачать план</button><label class="file-button">Открыть план<input id="plan-import" type="file" accept="application/json,.json"></label></div><p id="plan-status" aria-live="polite"></p><ul id="plan-points"></ul><p class="muted">Масштаб расчётов — 100 м на единицу координат. Рельеф, перепады высот и препятствия не учитываются. Изображение не отправляется на сервер и не сохраняется после перезагрузки. Файл плана содержит точки и границы, но не картинку. Названия карт используются только для организации планов.</p></div>
+    </section>
     <section id="tools" aria-label="Инструменты WARDOGS">
 <div class="section-head"><div><div class="eyebrow">ИНСТРУМЕНТЫ</div><h2>Расстояние по координатам</h2></div></div>
 <div class="about" id="range-tool"><p>Скопируйте координаты орудия и цели с карты. Калькулятор покажет расстояние на плоскости и направление. Высота местности, наклон орудия и траектория снаряда не учитываются.</p>
@@ -49,8 +59,10 @@
 <p class="muted">Цена считается по введённым значениям. Доход, найденные предметы и возврат снаряжения не учитываются; это план расходов, а не прогноз заработка.</p></div>
 <div class="section-head"><div><div class="eyebrow">ПОДБОР СНАРЯЖЕНИЯ</div><h2 id="compare-tool">Сравнение предметов</h2></div></div><div class="about"><div class="budget-fields"><label>Первый предмет<select id="compare-a"></select></label><label>Второй предмет<select id="compare-b"></select></label></div><div id="comparison-result" aria-live="polite">Выберите предметы после загрузки каталога.</div><p class="muted">Сравниваем только цену, указанную массу и уровень доступа по роли. Данных об уроне и темпе стрельбы пока нет.</p></div>
 <div class="section-head"><div><div class="eyebrow">ТРАНСПОРТ</div><h2 id="vehicle-tool">Покупка и разблокировка</h2></div></div><div class="about"><div class="budget-fields"><label>Транспорт<select id="vehicle-select"></select></label><label>Уже разблокирован<select id="vehicle-unlocked"><option value="yes">Да</option><option value="no">Нет</option></select></label><label>Планируемые покупки<input id="vehicle-count" type="number" min="1" max="10000" step="1" value="1"></label></div><div id="vehicle-result" aria-live="polite">Загружаем цены транспорта…</div><p class="muted">Цена разблокировки платится один раз в этом расчёте. Боеприпасы, топливо, ремонт и правила сезонных сбросов здесь не учитываются.</p></div>
+<div class="section-head"><div><div class="eyebrow">МИНОМЁТ L81</div><h2>Расход боеприпасов</h2></div></div><div class="about"><p>По руководству сообщества, один снаряд L81 расходует 30 единиц боеприпасов. Посчитайте запас для серии залпов; если значение в вашей версии игры другое, измените его.</p><form id="ammo-form" class="range-form"><label>Миномётов<input id="ammo-guns" type="number" min="1" max="1000" value="1" required></label><label>Снарядов в залпе на орудие<input id="ammo-shells" type="number" min="1" max="3" value="3" required></label><label>Залпов<input id="ammo-volleys" type="number" min="1" max="10000" value="5" required></label><label>Расход на снаряд<input id="ammo-per-shell" type="number" min="1" max="100000" value="30" required></label><label>Запас боеприпасов<input id="ammo-stock" type="number" min="0" max="1000000000" value="1000" required></label><button type="submit">Посчитать боезапас</button></form><div id="ammo-result" aria-live="polite">Введите план стрельбы.</div><p class="muted">Это расход припасов, а не денег. Значение 30 взято из наблюдений сообщества, не из официального API. Для SPH-2 значение по умолчанию не подтверждено.</p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Источник: руководство по L81 ↗</a></div>
 </section>
 <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
+    <section id="game-gallery"><div class="section-head"><div><div class="eyebrow">ИГРА</div><h2>Скриншоты WARDOGS</h2></div></div><p class="muted">Официальные скриншоты со страницы Steam. Это игровые сцены, не подложки карт планировщика.</p><div class="screenshot-grid"><a href="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/13fbc7cb084ec25c20ad031c7e888a9459cd8e77/ss_13fbc7cb084ec25c20ad031c7e888a9459cd8e77.1920x1080.jpg" target="_blank" rel="noopener noreferrer"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/13fbc7cb084ec25c20ad031c7e888a9459cd8e77/ss_13fbc7cb084ec25c20ad031c7e888a9459cd8e77.600x338.jpg" alt="Официальный скриншот WARDOGS 1" loading="lazy" width="600" height="338"><span>Открыть скриншот 1 ↗</span></a><a href="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/188530148b5f96f9af23bebaaa6882cac49bd23c/ss_188530148b5f96f9af23bebaaa6882cac49bd23c.1920x1080.jpg" target="_blank" rel="noopener noreferrer"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/188530148b5f96f9af23bebaaa6882cac49bd23c/ss_188530148b5f96f9af23bebaaa6882cac49bd23c.600x338.jpg" alt="Официальный скриншот WARDOGS 2" loading="lazy" width="600" height="338"><span>Открыть скриншот 2 ↗</span></a><a href="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/672d7ce9debe7a3bcfa5feee5fccc3d8b482b13e/ss_672d7ce9debe7a3bcfa5feee5fccc3d8b482b13e.1920x1080.jpg" target="_blank" rel="noopener noreferrer"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/672d7ce9debe7a3bcfa5feee5fccc3d8b482b13e/ss_672d7ce9debe7a3bcfa5feee5fccc3d8b482b13e.600x338.jpg" alt="Официальный скриншот WARDOGS 3" loading="lazy" width="600" height="338"><span>Открыть скриншот 3 ↗</span></a></div><p class="muted">Изображения: BULKHEAD / Team17, через Steam. <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Страница игры ↗</a></p></section>
     <section id="guides" aria-label="Гайды WARDOGS">
       <div class="section-head"><div><div class="eyebrow">НОВЫМ ИГРОКАМ</div><h2>С чего начать</h2></div></div>
       <div class="news-grid">
@@ -61,7 +73,7 @@
       </div>
     </section>
     <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
-    <footer><span>WARDOGS RU / независимый проект</span><span>CATALOG / 01</span></footer>
+    <footer><span>WARDOGS RU / независимый проект</span><span>MAPS / 01</span></footer>
   </main>
 </body>
 </html>

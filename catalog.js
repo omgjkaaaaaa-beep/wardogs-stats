@@ -20,12 +20,23 @@ function describeSelection() {
   const item = gameItems.find(item => item.id === document.querySelector('#catalog-item').value);
   document.querySelector('#catalog-detail').textContent = item ? `${item.name}: ${money(item.price)} за покупку; роль — ${item.role}, уровень ${item.level}. Масса: ${item.weight === null ? 'не указана' : item.weight.toLocaleString('ru')+' кг'}. Разблокировка: ${item.unlock_price === null ? 'стоимость не указана в источнике' : money(item.unlock_price)}. Цена разблокировки не входит в бюджет комплекта.` : 'По этим фильтрам ничего не найдено.';
 }
+function comparisonDetail(item, key) {
+  const value = item.details?.[key];
+  if (value !== undefined && value !== null && value !== '') {
+    if (key === 'Класс') return ({'ШВ':'Штурмовая винтовка','ПП':'Пистолет-пулемёт','СВ':'Снайперская винтовка','П':'Пистолет'})[value] || String(value);
+    return String(value);
+  }
+  const weaponField = ['Класс','Калибр'].includes(key);
+  const vehicleField = ['Места','Макс.скорость','Прочность'].includes(key);
+  if (weaponField && item.category !== 'Оружие' || vehicleField && item.category !== 'Транспорт') return 'Не применяется';
+  return 'Не указано в источнике';
+}
 function renderComparison() {
   const a = gameItems.find(item => item.id === document.querySelector('#compare-a').value);
   const b = gameItems.find(item => item.id === document.querySelector('#compare-b').value);
   if (!a || !b) return;
   const unlockRow = a.unlock_price === null && b.unlock_price === null ? '' : `<tr><td>Стоимость разблокировки</td><td>${a.unlock_price === null ? 'Не указана в источнике' : money(a.unlock_price)}</td><td>${b.unlock_price === null ? 'Не указана в источнике' : money(b.unlock_price)}</td></tr>`;
-  const extraRows = [...new Set([...Object.keys(a.details || {}),...Object.keys(b.details || {})])].map(key => `<tr><td>${escapeHtml(key)}</td><td>${escapeHtml(a.details?.[key] || 'Нет данных')}</td><td>${escapeHtml(b.details?.[key] || 'Нет данных')}</td></tr>`).join('');
+  const extraRows = [...new Set([...Object.keys(a.details || {}),...Object.keys(b.details || {})])].map(key => `<tr><td>${escapeHtml(key)}</td><td>${escapeHtml(comparisonDetail(a,key))}</td><td>${escapeHtml(comparisonDetail(b,key))}</td></tr>`).join('');
   document.querySelector('#comparison-result').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Показатель</th><th>${escapeHtml(a.name)}</th><th>${escapeHtml(b.name)}</th></tr></thead><tbody><tr><td>Цена покупки</td><td>${money(a.price)}</td><td>${money(b.price)}</td></tr><tr><td>Масса</td><td>${a.weight === null ? 'Не указана' : a.weight.toLocaleString('ru')+' кг'}</td><td>${b.weight === null ? 'Не указана' : b.weight.toLocaleString('ru')+' кг'}</td></tr><tr><td>Роль</td><td>${escapeHtml(a.role)}</td><td>${escapeHtml(b.role)}</td></tr><tr><td>Уровень доступа по роли</td><td>${a.level}</td><td>${b.level}</td></tr>${unlockRow}${extraRows}</tbody></table></div><p>Разница в цене покупки: ${money(Math.abs(a.price-b.price))}.</p>`;
 }
 function vehicleCost(item, count, unlocked) {

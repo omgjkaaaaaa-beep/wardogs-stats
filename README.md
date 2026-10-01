@@ -24,3 +24,7 @@ Required destination for updates: api.steampowered.com. Steam API keys, individu
 ## Coordinate calculator
 
 calculator.js is our independent geometric distance and bearing calculator. Scale is 100 metres per map-coordinate unit, based on the community guide https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041. Y direction is explicitly selectable; terrain height, weapon tilt and ballistics are not modelled. It is not a guaranteed artillery firing solution. No third-party calculator source code or map assets were incorporated.
+
+## Budget planner and personal notes
+
+Budget prices are entered manually by the player; no unverified item catalog is used. The planner computes kit cost, planned expenses, affordable full deployments and shortfall while protecting the chosen reserve. Up to 20 kits are stored locally. Achievements can be searched and manually marked as completed in local browser storage; there is no Steam account synchronization. News search filters the saved feed. Beginner guides link to official or community sources and distinguish third-party claims from tested functionality.

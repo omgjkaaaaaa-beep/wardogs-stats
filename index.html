@@ -5,15 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
   <title>WARDOGS — Новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=tools-1">
-  <script src="./app.js?v=tools-1" defer></script>
-  <script src="./calculator.js?v=tools-1" defer></script>
+  <link rel="stylesheet" href="./style.css?v=toolkit-3">
+  <script src="./app.js?v=toolkit-3" defer></script>
+  <script src="./calculator.js?v=toolkit-3" defer></script>
+  <script src="./budget.js?v=toolkit-3" defer></script>
 </head>
 <body>
   <header>
     <a class="logo" href="./">W<span>△</span>RDOGS <small>NEWS</small></a>
     <nav aria-label="Разделы">
       <a class="active" href="#content">Новости</a>
+      <a href="#guides">Гайды</a>
       <a href="#tools">Инструменты</a>
       <a href="#achievements">Достижения</a>
       <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Игра в Steam ↗</a>
@@ -24,7 +26,7 @@
     <section class="hero">
       <div class="eyebrow">ПАТЧИ · СЕЗОНЫ · ОБЪЯВЛЕНИЯ</div>
       <h1>Новости WARDOGS</h1>
-      <p>Пишем об обновлениях и новых сезонах.<br>Переводим новости разработчиков на русский.</p>
+      <p>Новости разработчиков на русском.<br>Гайды и инструменты для игры.</p>
       <div class="hero-mark" aria-hidden="true">W<span>НОВОСТИ / 01</span></div>
     </section>
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
@@ -36,10 +38,26 @@
 <div id="range-result" aria-live="polite">Введите две пары координат.</div>
 <p class="muted">Масштаб: 1 единица координат = 100 м по руководствам сообщества. Азимут: 0° — север, 90° — восток. Проверьте направление оси Y по карте игры; при необходимости переключите его. Это геометрический расчёт, а не готовое решение баллистики.</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Как снять координаты в игре ↗</a></div>
+<div class="section-head"><div><div class="eyebrow">СНАРЯЖЕНИЕ И ДЕНЬГИ</div><h2>Бюджет выхода</h2></div></div>
+<div class="about"><p>Введите цены из магазина игры. Посчитаем стоимость комплекта и сколько полных выходов вы сможете оплатить, не затрагивая резерв. Сохранённые комплекты остаются в этом браузере.</p>
+<form id="budget-form"><div class="budget-fields"><label>Денег на счету<input id="wallet" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Оставить в резерве<input id="reserve" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Планируемые выходы<input id="deployments" type="number" min="1" max="10000" step="1" value="1" required></label></div>
+<div id="budget-items"></div><div class="tool-actions"><button type="button" id="add-item">Добавить предмет</button><button type="submit">Рассчитать бюджет</button></div></form>
+<div id="budget-result" aria-live="polite">Добавьте предметы и их цены.</div>
+<div class="budget-fields save-kit"><label>Название комплекта<input id="kit-name" maxlength="60" placeholder="Например: медик"></label><label>Сохранённые комплекты<select id="saved-kits"><option value="">Выберите комплект</option></select></label></div><div class="tool-actions"><button id="save-kit" type="button">Сохранить комплект</button><button id="load-kit" type="button">Загрузить</button><button id="delete-kit" type="button">Удалить выбранный</button></div><p id="kit-status" class="muted" aria-live="polite"></p>
+<p class="muted">Цена считается по введённым значениям. Доход, найденные предметы и возврат снаряжения не учитываются; это план расходов, а не прогноз заработка.</p></div>
 </section>
 <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
+    <section id="guides" aria-label="Гайды WARDOGS">
+      <div class="section-head"><div><div class="eyebrow">НОВЫМ ИГРОКАМ</div><h2>С чего начать</h2></div></div>
+      <div class="news-grid">
+        <article class="about"><h2>Что нужно для победы</h2><p>Три команды борются за зону контроля. По FAQ разработчиков, каждые 30 секунд очко получает команда, у которой больше игроков внутри зоны. Побеждает команда, первой набравшая 100 очков.</p><p>Когда выбираете, куда идти, сначала посмотрите положение зоны и счёт команд. Бой вдали от цели сам по себе не приносит очков за контроль.</p><a href="https://steamcommunity.com/app/1867240/discussions/0/762932533852726673/" target="_blank" rel="noopener noreferrer">FAQ разработчиков ↗</a></article>
+        <article class="about"><h2>Как не потратить всё на снаряжение</h2><p>По описанию игры, в начале вы получаете $10 000. Снаряжение покупается на каждую жизнь, а деньги сохраняются между матчами. Командные действия — помощь союзникам, перевозка и контроль цели — приносят доход.</p><p>Перед дорогим выходом оставьте запас на следующие. Калькулятор бюджета выше поможет оценить расходы; он не обещает заработок за матч.</p><a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Описание игры в Steam ↗</a></article>
+        <article class="about"><h2>Как получить координаты</h2><p>Откройте карту и приблизьте нужное место. Нажмите правой кнопкой и выберите «Отметить координаты» (Mark Coordinates). В строке чата выделите координаты через Ctrl+A и скопируйте Ctrl+C.</p><p>Повторите для цели и вставьте обе пары в калькулятор. Он считает расстояние на плоскости; перепады высоты и наклон орудия могут потребовать корректировки в игре.</p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Руководство сообщества ↗</a></article>
+        <article class="about"><h2>Другие инструменты сообщества</h2><p><a href="https://wardogs.n4lab.dev" target="_blank" rel="noopener noreferrer">N4Lab</a> — автор описывает 3D-карты, расчёт артиллерии, зоны ПВО и планировщик FOB.</p><p><a href="https://wardogsfieldkit.com/en/tools/mortar-calculator/" target="_blank" rel="noopener noreferrer">Fieldkit</a> — калькулятор миномёта по таблице сообщества. Высоту местности он не учитывает.</p><p class="muted">Это сторонние проекты. Их расчёты не проверены нами в игре; наличие функций подтверждено описаниями авторов в Steam.</p></article>
+      </div>
+    </section>
     <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
-    <footer><span>WARDOGS NEWS / независимый проект</span><span>TOOLS / 01</span></footer>
+    <footer><span>WARDOGS NEWS / независимый проект</span><span>TOOLS / 03</span></footer>
   </main>
 </body>
 </html>

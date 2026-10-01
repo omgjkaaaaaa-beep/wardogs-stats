@@ -5,7 +5,7 @@
   "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533",
   "source_label": "RU Wiki — руководство сообщества Steam",
   "status": "community_unverified",
-  "note": "Цены и уровни из таблиц сообщества; не проверены в магазине игры. Номер патча источник не указывает. Неполные строки исключены. Нулевая масса снаряжения в источнике помечена как неизвестная. Цена разблокировки отдельно от покупки; неизвестные значения не считаются нулём.",
+  "note": "Цены и уровни из таблиц сообщества; не проверены в магазине игры. Номер патча источник не указывает. Неполные строки исключены. Нулевая масса снаряжения в источнике помечена как неизвестная. Цена разблокировки отдельно от покупки; неизвестные значения не считаются нулём. Цены разблокировки отмеченных предметов дополнены официальным списком изменений сезона 1; дальнейшие изменения в игре возможны.",
   "items": [
     {
       "id": "item-1",
@@ -654,8 +654,11 @@
       "price": 800,
       "weight": 1.23,
       "level": 3,
-      "unlock_price": null,
-      "details": {}
+      "unlock_price": 25000,
+      "details": {},
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-46",
@@ -665,8 +668,11 @@
       "price": 2400,
       "weight": 3.18,
       "level": 8,
-      "unlock_price": null,
-      "details": {}
+      "unlock_price": 75000,
+      "details": {},
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-47",
@@ -789,7 +795,10 @@
         "Макс.скорость": "130",
         "Прочность": "400"
       },
-      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-57",
@@ -806,7 +815,10 @@
         "Макс.скорость": "79",
         "Прочность": "700"
       },
-      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-58",
@@ -891,7 +903,10 @@
         "Макс.скорость": "154",
         "Прочность": "400"
       },
-      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +5 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +5 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-63",
@@ -965,18 +980,22 @@
       "id": "item-67",
       "name": "SPH-2",
       "category": "Транспорт",
-      "role": "Водитель",
+      "role": "Поддержка",
       "price": 8000,
       "weight": null,
       "level": 90,
-      "unlock_price": null,
+      "unlock_price": 500000,
       "image_url": "https://images.steamusercontent.com/ugc/17423917454444738437/CA7BB7A9FABEE3D2A5497B0EE2224B78CBBED8D6/",
       "details": {
         "Места": "1 +2",
         "Макс.скорость": "65",
         "Прочность": "650"
       },
-      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Артиллерийская машина для роли «Поддержка». Доступ открывается на 90-м уровне карьеры, а не водителя. Разблокировка стоит $500 000; каждая покупка машины — $8 000.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1",
+      "level_track": "Карьера"
     },
     {
       "id": "item-68",
@@ -1010,7 +1029,10 @@
         "Макс.скорость": "350",
         "Прочность": "400"
       },
-      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-70",
@@ -1044,7 +1066,10 @@
         "Макс.скорость": "445",
         "Прочность": "600"
       },
-      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +12 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +12 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно.",
+      "unlock_source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690549",
+      "unlock_source_label": "Разработчики: Pre-Load Live & Season 1 Changelog",
+      "unlock_source_status": "official_season_1"
     },
     {
       "id": "item-72",

@@ -18,7 +18,7 @@ function filterCatalog() {
 }
 function describeSelection() {
   const item = gameItems.find(item => item.id === document.querySelector('#catalog-item').value);
-  document.querySelector('#catalog-detail').textContent = item ? `${item.name}: ${money(item.price)} за покупку; роль — ${item.role}, уровень ${item.level}. Масса: ${item.weight === null ? 'не указана' : item.weight.toLocaleString('ru')+' кг'}. Разблокировка: ${item.unlock_price === null ? 'стоимость не указана в источнике' : money(item.unlock_price)}. Цена разблокировки не входит в бюджет комплекта.` : 'По этим фильтрам ничего не найдено.';
+  document.querySelector('#catalog-detail').textContent = item ? `${item.name}: ${money(item.price)} за покупку; роль — ${item.role}, ${item.level_track ? 'уровень карьеры' : 'уровень роли'} ${item.level}. Масса: ${item.weight === null ? 'не указана' : item.weight.toLocaleString('ru')+' кг'}. Разблокировка: ${item.unlock_price === null ? 'стоимость не указана в источнике' : money(item.unlock_price)}. Цена разблокировки не входит в бюджет комплекта.` : 'По этим фильтрам ничего не найдено.';
 }
 function comparisonDetail(item, key) {
   const value = item.details?.[key];
@@ -31,13 +31,16 @@ function comparisonDetail(item, key) {
   if (weaponField && item.category !== 'Оружие' || vehicleField && item.category !== 'Транспорт') return 'Не применяется';
   return 'Не указано в источнике';
 }
+function unlockSource(item) {
+  return item.unlock_source_url && /^https:\/\/(steamcommunity\.com|steamstore-a\.akamaihd\.net)\//.test(item.unlock_source_url) ? `<a href="${escapeHtml(item.unlock_source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)}: цена разблокировки из объявления разработчиков ↗</a>` : '';
+}
 function renderComparison() {
   const a = gameItems.find(item => item.id === document.querySelector('#compare-a').value);
   const b = gameItems.find(item => item.id === document.querySelector('#compare-b').value);
   if (!a || !b) return;
   const unlockRow = a.unlock_price === null && b.unlock_price === null ? '' : `<tr><td>Стоимость разблокировки</td><td>${a.unlock_price === null ? 'Не указана в источнике' : money(a.unlock_price)}</td><td>${b.unlock_price === null ? 'Не указана в источнике' : money(b.unlock_price)}</td></tr>`;
   const extraRows = [...new Set([...Object.keys(a.details || {}),...Object.keys(b.details || {})])].map(key => `<tr><td>${escapeHtml(key)}</td><td>${escapeHtml(comparisonDetail(a,key))}</td><td>${escapeHtml(comparisonDetail(b,key))}</td></tr>`).join('');
-  document.querySelector('#comparison-result').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Показатель</th><th>${escapeHtml(a.name)}</th><th>${escapeHtml(b.name)}</th></tr></thead><tbody><tr><td>Цена покупки</td><td>${money(a.price)}</td><td>${money(b.price)}</td></tr><tr><td>Масса</td><td>${a.weight === null ? 'Не указана' : a.weight.toLocaleString('ru')+' кг'}</td><td>${b.weight === null ? 'Не указана' : b.weight.toLocaleString('ru')+' кг'}</td></tr><tr><td>Роль</td><td>${escapeHtml(a.role)}</td><td>${escapeHtml(b.role)}</td></tr><tr><td>Уровень доступа по роли</td><td>${a.level}</td><td>${b.level}</td></tr>${unlockRow}${extraRows}</tbody></table></div><p>Разница в цене покупки: ${money(Math.abs(a.price-b.price))}.</p>`;
+  document.querySelector('#comparison-result').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Показатель</th><th>${escapeHtml(a.name)}</th><th>${escapeHtml(b.name)}</th></tr></thead><tbody><tr><td>Цена покупки</td><td>${money(a.price)}</td><td>${money(b.price)}</td></tr><tr><td>Масса</td><td>${a.weight === null ? 'Не указана' : a.weight.toLocaleString('ru')+' кг'}</td><td>${b.weight === null ? 'Не указана' : b.weight.toLocaleString('ru')+' кг'}</td></tr><tr><td>Роль</td><td>${escapeHtml(a.role)}</td><td>${escapeHtml(b.role)}</td></tr><tr><td>Уровень доступа</td><td>${a.level}${a.level_track ? ' · '+escapeHtml(a.level_track) : ' · роль'}</td><td>${b.level}${b.level_track ? ' · '+escapeHtml(b.level_track) : ' · роль'}</td></tr>${unlockRow}${extraRows}</tbody></table></div>${[...new Set([unlockSource(a),unlockSource(b)])].filter(Boolean).map(link=>`<p>${link}</p>`).join('')}<p>Разница в цене покупки: ${money(Math.abs(a.price-b.price))}.</p>`;
 }
 function vehicleCost(item, count, unlocked) {
   if (!Number.isSafeInteger(count) || count < 1 || count > 10000) throw new Error('Введите целое число покупок от 1 до 10 000.');
@@ -51,7 +54,7 @@ function renderVehicle() {
   const result = document.querySelector('#vehicle-result');
   try {
     const value = vehicleCost(item,Number(document.querySelector('#vehicle-count').value),document.querySelector('#vehicle-unlocked').value === 'yes');
-    result.textContent = `${item.name}: ${money(item.price)} за одну покупку. На выбранное количество: ${money(value.purchases)}. ${value.unlock === null ? 'Цена разблокировки неизвестна — полный итог посчитать нельзя.' : 'Разблокировка: '+money(value.unlock)+'. Итого: '+money(value.total)+'.'} Роль: ${item.role}, уровень ${item.level}.`;
+    result.textContent = `${item.name}: ${money(item.price)} за одну покупку. На выбранное количество: ${money(value.purchases)}. ${value.unlock === null ? 'Цена разблокировки неизвестна — полный итог посчитать нельзя.' : 'Разблокировка: '+money(value.unlock)+'. Итого: '+money(value.total)+'.'} Роль: ${item.role}, ${item.level_track ? 'уровень карьеры' : 'уровень роли'} ${item.level}.`;
   } catch(error) { result.textContent = error.message; }
 }
 fetch('./items.json',{cache:'no-store'})
@@ -62,7 +65,7 @@ fetch('./items.json',{cache:'no-store'})
     gameItems = data.items;
     renderArsenal();
     const status = document.querySelector('#catalog-status');
-    status.textContent = `${gameItems.length} позиций. Цены из руководства сообщества, обновлённого 30 сентября 2026 года. Собрано 1 октября. Номер патча не указан; цены не проверены в магазине игры. `;
+    status.textContent = `${gameItems.length} позиций. Цены из руководства сообщества, обновлённого 30 сентября 2026 года. Собрано 1 октября. Цены покупки не проверены в магазине игры. Для 8 предметов цена разблокировки дополнена официальным списком изменений сезона 1. `;
     const link = document.createElement('a');link.href='https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533';link.target='_blank';link.rel='noopener noreferrer';link.textContent='Источник ↗';status.append(link);
     for (const category of new Set(gameItems.map(item=>item.category))) document.querySelector('#catalog-category').add(new Option(category,category));
     for (const role of new Set(gameItems.map(item=>item.role))) document.querySelector('#catalog-role').add(new Option(role,role));
@@ -96,7 +99,7 @@ function renderArsenal() {
   grid.innerHTML = items.map(item => {
     const details = Object.entries(item.details || {}).map(([key,value]) => `<div><dt>${escapeHtml(key === 'Макс.скорость' ? 'Макс. скорость (по источнику)' : key)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('');
     const image = item.image_url && /^https:\/\/images\.steamusercontent\.com\//.test(item.image_url) ? `<img src="${escapeHtml(item.image_url)}" alt="${escapeHtml(item.name)}" loading="lazy" width="320" height="180">` : '<span class="item-image-empty">Изображение пока не добавлено</span>';
-    return `<article class="item-card"><div class="item-image">${image}</div><div class="item-body"><span class="eyebrow">${escapeHtml(item.category)} / ${escapeHtml(item.role)}</span><h3>${escapeHtml(item.name)}</h3><div class="item-price">${money(item.price)} <small>за покупку</small></div><p>${escapeHtml(item.description || `Предмет для роли «${item.role}». Открывается на уровне ${item.level}.`)}</p><details><summary>Все характеристики</summary><dl class="item-stats"><div><dt>Уровень доступа</dt><dd>${item.level}</dd></div><div><dt>Масса</dt><dd>${item.weight === null ? 'Нет данных' : item.weight.toLocaleString('ru')+' кг'}</dd></div><div><dt>Стоимость разблокировки</dt><dd>${item.unlock_price === null ? 'Не указана в источнике' : money(item.unlock_price)}</dd></div>${details}</dl><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533" target="_blank" rel="noopener noreferrer">Источник характеристик ↗</a></details><button type="button" data-kit-item="${escapeHtml(item.id)}">Добавить в комплект</button></div></article>`;
+    return `<article class="item-card"><div class="item-image">${image}</div><div class="item-body"><span class="eyebrow">${escapeHtml(item.category)} / ${escapeHtml(item.role)}</span><h3>${escapeHtml(item.name)}</h3><div class="item-price">${money(item.price)} <small>за покупку</small></div><p>${escapeHtml(item.description || `Предмет для роли «${item.role}». Открывается на уровне ${item.level}.`)}</p><details><summary>Все характеристики</summary><dl class="item-stats"><div><dt>Уровень доступа</dt><dd>${item.level}${item.level_track ? ' · '+escapeHtml(item.level_track) : ''}</dd></div><div><dt>Масса</dt><dd>${item.weight === null ? 'Нет данных' : item.weight.toLocaleString('ru')+' кг'}</dd></div><div><dt>Стоимость разблокировки</dt><dd>${item.unlock_price === null ? 'Не указана в источнике' : money(item.unlock_price)}</dd></div>${details}</dl>${unlockSource(item)}<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533" target="_blank" rel="noopener noreferrer">Источник характеристик ↗</a></details><button type="button" data-kit-item="${escapeHtml(item.id)}">Добавить в комплект</button></div></article>`;
   }).join('');
   grid.querySelectorAll('img').forEach(img => img.addEventListener('error',()=>{const fallback=document.createElement('span');fallback.className='item-image-empty';fallback.textContent='Изображение не загрузилось';img.replaceWith(fallback);},{once:true}));
 }

@@ -4,15 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
-  <title>WARDOGS — Новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=toolkit-3">
-  <script src="./app.js?v=toolkit-3" defer></script>
-  <script src="./calculator.js?v=toolkit-3" defer></script>
-  <script src="./budget.js?v=toolkit-3" defer></script>
+  <title>WARDOGS — Инструменты, гайды и новости на русском</title>
+  <link rel="stylesheet" href="./style.css?v=catalog-1">
+  <script src="./app.js?v=catalog-1" defer></script>
+  <script src="./calculator.js?v=catalog-1" defer></script>
+  <script src="./budget.js?v=catalog-1" defer></script>
+  <script src="./catalog.js?v=catalog-1" defer></script>
 </head>
 <body>
   <header>
-    <a class="logo" href="./">W<span>△</span>RDOGS <small>NEWS</small></a>
+    <a class="logo" href="./">W<span>△</span>RDOGS <small>RU</small></a>
     <nav aria-label="Разделы">
       <a class="active" href="#content">Новости</a>
       <a href="#guides">Гайды</a>
@@ -20,31 +21,34 @@
       <a href="#achievements">Достижения</a>
       <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Игра в Steam ↗</a>
     </nav>
-    <span class="demo">● НОВОСТИ НА РУССКОМ</span>
+    <span class="demo">● СООБЩЕСТВО RU</span>
   </header>
   <main>
     <section class="hero">
       <div class="eyebrow">ПАТЧИ · СЕЗОНЫ · ОБЪЯВЛЕНИЯ</div>
-      <h1>Новости WARDOGS</h1>
-      <p>Новости разработчиков на русском.<br>Гайды и инструменты для игры.</p>
+      <h1>Гайды и инструменты<br><em>WARDOGS</em></h1>
+      <p>Соберите снаряжение, посчитайте расходы и сравните предметы.<br>Здесь же — новости разработчиков и гайды на русском.</p>
       <div class="hero-mark" aria-hidden="true">W<span>НОВОСТИ / 01</span></div>
     </section>
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
+    <div class="tool-launcher" aria-label="Быстрый выбор инструмента"><a href="#budget-tool"><span>01 / СНАРЯЖЕНИЕ</span><strong>Собрать комплект →</strong><small>Предметы, цены и бюджет</small></a><a href="#compare-tool"><span>02 / СРАВНЕНИЕ</span><strong>Выбрать предметы →</strong><small>Цена, масса и доступ по роли</small></a><a href="#vehicle-tool"><span>03 / ТРАНСПОРТ</span><strong>Посчитать расходы →</strong><small>Покупка и разблокировка</small></a><a href="#range-tool"><span>04 / КООРДИНАТЫ</span><strong>Рассчитать расстояние →</strong><small>Дальность и направление</small></a></div>
     <section id="online" aria-label="Онлайн WARDOGS" aria-live="polite"></section>
     <section id="tools" aria-label="Инструменты WARDOGS">
 <div class="section-head"><div><div class="eyebrow">ИНСТРУМЕНТЫ</div><h2>Расстояние по координатам</h2></div></div>
-<div class="about"><p>Скопируйте координаты орудия и цели с карты. Калькулятор покажет расстояние на плоскости и направление. Высота местности, наклон орудия и траектория снаряда не учитываются.</p>
+<div class="about" id="range-tool"><p>Скопируйте координаты орудия и цели с карты. Калькулятор покажет расстояние на плоскости и направление. Высота местности, наклон орудия и траектория снаряда не учитываются.</p>
 <form id="range-form" class="range-form"><label>Координаты орудия<input id="gun-coordinates" placeholder="x98.43, y110.38" required autocomplete="off"></label><label>Координаты цели<input id="target-coordinates" placeholder="x94.53, y109.03" required autocomplete="off"></label><label>Ось Y на карте<select id="north-axis"><option value="1">Y растёт к северу</option><option value="-1">Y растёт к югу</option></select></label><button type="submit">Рассчитать</button></form>
 <div id="range-result" aria-live="polite">Введите две пары координат.</div>
 <p class="muted">Масштаб: 1 единица координат = 100 м по руководствам сообщества. Азимут: 0° — север, 90° — восток. Проверьте направление оси Y по карте игры; при необходимости переключите его. Это геометрический расчёт, а не готовое решение баллистики.</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Как снять координаты в игре ↗</a></div>
-<div class="section-head"><div><div class="eyebrow">СНАРЯЖЕНИЕ И ДЕНЬГИ</div><h2>Бюджет выхода</h2></div></div>
-<div class="about"><p>Введите цены из магазина игры. Посчитаем стоимость комплекта и сколько полных выходов вы сможете оплатить, не затрагивая резерв. Сохранённые комплекты остаются в этом браузере.</p>
-<form id="budget-form"><div class="budget-fields"><label>Денег на счету<input id="wallet" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Оставить в резерве<input id="reserve" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Планируемые выходы<input id="deployments" type="number" min="1" max="10000" step="1" value="1" required></label></div>
+<div class="section-head"><div><div class="eyebrow">СНАРЯЖЕНИЕ И ДЕНЬГИ</div><h2 id="budget-tool">Сборка снаряжения</h2></div></div>
+<div class="about"><p>Выберите предметы из каталога. Их цены подставятся автоматически; при необходимости можно изменить цену по магазину игры. Посчитаем стоимость комплекта и сколько полных выходов вы сможете оплатить, не затрагивая резерв. Сохранённые комплекты остаются в этом браузере.</p>
+<div id="catalog-status" class="notice">Загружаем каталог предметов…</div><div class="budget-fields"><label>Категория<select id="catalog-category"><option value="">Все категории</option></select></label><label>Роль<select id="catalog-role"><option value="">Все роли</option></select></label><label>Поиск предмета<input id="catalog-search" type="search" placeholder="Например: M4"></label></div><div class="catalog-pick"><label>Предмет<select id="catalog-item"></select></label><button id="catalog-add" type="button" disabled>Добавить в комплект</button></div><p id="catalog-detail" class="muted" aria-live="polite"></p><form id="budget-form"><div class="budget-fields"><label>Денег на счету<input id="wallet" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Оставить в резерве<input id="reserve" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Планируемые выходы<input id="deployments" type="number" min="1" max="10000" step="1" value="1" required></label></div>
 <div id="budget-items"></div><div class="tool-actions"><button type="button" id="add-item">Добавить предмет</button><button type="submit">Рассчитать бюджет</button></div></form>
 <div id="budget-result" aria-live="polite">Добавьте предметы и их цены.</div>
 <div class="budget-fields save-kit"><label>Название комплекта<input id="kit-name" maxlength="60" placeholder="Например: медик"></label><label>Сохранённые комплекты<select id="saved-kits"><option value="">Выберите комплект</option></select></label></div><div class="tool-actions"><button id="save-kit" type="button">Сохранить комплект</button><button id="load-kit" type="button">Загрузить</button><button id="delete-kit" type="button">Удалить выбранный</button></div><p id="kit-status" class="muted" aria-live="polite"></p>
 <p class="muted">Цена считается по введённым значениям. Доход, найденные предметы и возврат снаряжения не учитываются; это план расходов, а не прогноз заработка.</p></div>
+<div class="section-head"><div><div class="eyebrow">ПОДБОР СНАРЯЖЕНИЯ</div><h2 id="compare-tool">Сравнение предметов</h2></div></div><div class="about"><div class="budget-fields"><label>Первый предмет<select id="compare-a"></select></label><label>Второй предмет<select id="compare-b"></select></label></div><div id="comparison-result" aria-live="polite">Выберите предметы после загрузки каталога.</div><p class="muted">Сравниваем только цену, указанную массу и уровень доступа по роли. Данных об уроне и темпе стрельбы пока нет.</p></div>
+<div class="section-head"><div><div class="eyebrow">ТРАНСПОРТ</div><h2 id="vehicle-tool">Покупка и разблокировка</h2></div></div><div class="about"><div class="budget-fields"><label>Транспорт<select id="vehicle-select"></select></label><label>Уже разблокирован<select id="vehicle-unlocked"><option value="yes">Да</option><option value="no">Нет</option></select></label><label>Планируемые покупки<input id="vehicle-count" type="number" min="1" max="10000" step="1" value="1"></label></div><div id="vehicle-result" aria-live="polite">Загружаем цены транспорта…</div><p class="muted">Цена разблокировки платится один раз в этом расчёте. Боеприпасы, топливо, ремонт и правила сезонных сбросов здесь не учитываются.</p></div>
 </section>
 <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
     <section id="guides" aria-label="Гайды WARDOGS">
@@ -57,7 +61,7 @@
       </div>
     </section>
     <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
-    <footer><span>WARDOGS NEWS / независимый проект</span><span>TOOLS / 03</span></footer>
+    <footer><span>WARDOGS RU / независимый проект</span><span>CATALOG / 01</span></footer>
   </main>
 </body>
 </html>

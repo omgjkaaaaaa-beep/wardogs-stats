@@ -28,3 +28,7 @@ calculator.js is our independent geometric distance and bearing calculator. Scal
 ## Budget planner and personal notes
 
 Budget prices are entered manually by the player; no unverified item catalog is used. The planner computes kit cost, planned expenses, affordable full deployments and shortfall while protecting the chosen reserve. Up to 20 kits are stored locally. Achievements can be searched and manually marked as completed in local browser storage; there is no Steam account synchronization. News search filters the saved feed. Beginner guides link to official or community sources and distinguish third-party claims from tested functionality.
+
+## Game item catalog
+
+items.json contains 73 weapon, equipment and vehicle entries transcribed as factual values from https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533 (source updated September 30, reviewed October 1, 2026). This is an unverified community dataset, not an official live price API. Incomplete entries are omitted; unspecified unlock costs and suspicious zero equipment weights are null. Catalog selection adds an editable price to the budget. Comparisons cover purchase price, known weight and role level only. Vehicle planner separates one-time unlock from repeated purchases and never substitutes zero for unknown unlock prices. No third-party source code, prose, icons or maps were copied.

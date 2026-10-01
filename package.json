@@ -1,1 +1,1 @@
-{"name":"wardogs-stats","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"node server.js","start":"node server.js","check":"node --check server.js && node --check app.js && node --check calculator.js && node --check budget.js"},"engines":{"node":">=22"}}
+{"name":"wardogs-stats","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"node server.js","start":"node server.js","check":"node --check server.js && node --check app.js && node --check calculator.js && node --check budget.js && node --check catalog.js"},"engines":{"node":">=22"}}

@@ -1,0 +1,741 @@
+{
+  "game": "WARDOGS",
+  "reviewed_at": "2026-10-01",
+  "source_updated": "2026-09-30",
+  "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533",
+  "source_label": "RU Wiki — руководство сообщества Steam",
+  "status": "community_unverified",
+  "note": "Цены и уровни из таблиц сообщества; не проверены в магазине игры. Номер патча источник не указывает. Неполные строки исключены. Нулевая масса снаряжения в источнике помечена как неизвестная. Цена разблокировки отдельно от покупки; неизвестные значения не считаются нулём.",
+  "items": [
+    {
+      "id": "item-1",
+      "name": "A-91",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 0,
+      "weight": 3.17,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-2",
+      "name": "Bushmaster M17S",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 0,
+      "weight": 3.17,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-3",
+      "name": "KH-2002",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 0,
+      "weight": 3.17,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-4",
+      "name": "T-21",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 600,
+      "weight": 3.27,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-5",
+      "name": "GGX 17",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 200,
+      "weight": 0.63,
+      "level": 1,
+      "unlock_price": null
+    },
+    {
+      "id": "item-6",
+      "name": "AK74",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 1600,
+      "weight": 3,
+      "level": 3,
+      "unlock_price": null
+    },
+    {
+      "id": "item-7",
+      "name": "Galil",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 2200,
+      "weight": 3.95,
+      "level": 10,
+      "unlock_price": null
+    },
+    {
+      "id": "item-8",
+      "name": "Judge",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 250,
+      "weight": 0.82,
+      "level": 18,
+      "unlock_price": null
+    },
+    {
+      "id": "item-9",
+      "name": "M4",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 2800,
+      "weight": 2.92,
+      "level": 20,
+      "unlock_price": null
+    },
+    {
+      "id": "item-10",
+      "name": "FAL",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 6500,
+      "weight": 4.25,
+      "level": 35,
+      "unlock_price": null
+    },
+    {
+      "id": "item-11",
+      "name": "M1911",
+      "category": "Оружие",
+      "role": "Пехота",
+      "price": 300,
+      "weight": 1.1,
+      "level": 40,
+      "unlock_price": null
+    },
+    {
+      "id": "item-12",
+      "name": "MP43",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 400,
+      "weight": 3.2,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-13",
+      "name": "RPG-7",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 2000,
+      "weight": 6.3,
+      "level": 5,
+      "unlock_price": null
+    },
+    {
+      "id": "item-14",
+      "name": "M500",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 1200,
+      "weight": 3.52,
+      "level": 10,
+      "unlock_price": null
+    },
+    {
+      "id": "item-15",
+      "name": "M249 SAW",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 3200,
+      "weight": 7.5,
+      "level": 15,
+      "unlock_price": null
+    },
+    {
+      "id": "item-16",
+      "name": "9K333 Verba",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 800,
+      "weight": 17.25,
+      "level": 16,
+      "unlock_price": null
+    },
+    {
+      "id": "item-17",
+      "name": "MAAWS",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 2600,
+      "weight": 7,
+      "level": 20,
+      "unlock_price": null
+    },
+    {
+      "id": "item-18",
+      "name": "PKM",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 4500,
+      "weight": 7.5,
+      "level": 30,
+      "unlock_price": null
+    },
+    {
+      "id": "item-19",
+      "name": "MGL-40",
+      "category": "Оружие",
+      "role": "Поддержка",
+      "price": 6000,
+      "weight": 5.3,
+      "level": 35,
+      "unlock_price": null
+    },
+    {
+      "id": "item-20",
+      "name": "AMP-9",
+      "category": "Оружие",
+      "role": "Медик",
+      "price": 900,
+      "weight": 1.4,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-21",
+      "name": "PP-19 Vityaz",
+      "category": "Оружие",
+      "role": "Медик",
+      "price": 1200,
+      "weight": 2.9,
+      "level": 4,
+      "unlock_price": null
+    },
+    {
+      "id": "item-22",
+      "name": "MP5",
+      "category": "Оружие",
+      "role": "Медик",
+      "price": 1500,
+      "weight": 2.54,
+      "level": 15,
+      "unlock_price": null
+    },
+    {
+      "id": "item-23",
+      "name": "Super-45",
+      "category": "Оружие",
+      "role": "Медик",
+      "price": 2600,
+      "weight": 3,
+      "level": 35,
+      "unlock_price": null
+    },
+    {
+      "id": "item-24",
+      "name": "Scout Rifle TD",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 1100,
+      "weight": 2.95,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-25",
+      "name": "SKS",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 2400,
+      "weight": 3.85,
+      "level": 5,
+      "unlock_price": null
+    },
+    {
+      "id": "item-26",
+      "name": "Mosin Nagant",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 4500,
+      "weight": 4.1,
+      "level": 10,
+      "unlock_price": null
+    },
+    {
+      "id": "item-27",
+      "name": "Compound Bow",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 800,
+      "weight": 1.3,
+      "level": 17,
+      "unlock_price": null
+    },
+    {
+      "id": "item-28",
+      "name": "SV98",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 5200,
+      "weight": 5.8,
+      "level": 19,
+      "unlock_price": null
+    },
+    {
+      "id": "item-29",
+      "name": "MK22",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 6400,
+      "weight": 6.3,
+      "level": 25,
+      "unlock_price": null
+    },
+    {
+      "id": "item-30",
+      "name": "BMR-308",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 6000,
+      "weight": 3.9,
+      "level": 30,
+      "unlock_price": null
+    },
+    {
+      "id": "item-31",
+      "name": "AMR 50",
+      "category": "Оружие",
+      "role": "Разведчик",
+      "price": 8800,
+      "weight": 12.5,
+      "level": 35,
+      "unlock_price": null
+    },
+    {
+      "id": "item-32",
+      "name": "Enox",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 450,
+      "weight": null,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-33",
+      "name": "Bandage",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 200,
+      "weight": 0.08,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-34",
+      "name": "Emergency Resuscitator",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 0,
+      "weight": 0.39,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-35",
+      "name": "Field Resuscitator",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 500,
+      "weight": 0.39,
+      "level": 2,
+      "unlock_price": null
+    },
+    {
+      "id": "item-36",
+      "name": "Individual First Aid Kit",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 800,
+      "weight": 0.16,
+      "level": 9,
+      "unlock_price": null
+    },
+    {
+      "id": "item-37",
+      "name": "Defibrillator",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 1600,
+      "weight": 2.6,
+      "level": 11,
+      "unlock_price": 50000
+    },
+    {
+      "id": "item-38",
+      "name": "Adrenaline Pen",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 250,
+      "weight": null,
+      "level": 14,
+      "unlock_price": null
+    },
+    {
+      "id": "item-39",
+      "name": "Medical Bag",
+      "category": "Снаряжение",
+      "role": "Медик",
+      "price": 2000,
+      "weight": 3.45,
+      "level": 24,
+      "unlock_price": null
+    },
+    {
+      "id": "item-40",
+      "name": "Fuel Can",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 150,
+      "weight": 5,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-41",
+      "name": "Small Hammer",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 100,
+      "weight": 0.32,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-42",
+      "name": "Wrench",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 150,
+      "weight": null,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-43",
+      "name": "Light Drill",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 600,
+      "weight": 1.5,
+      "level": 1,
+      "unlock_price": null
+    },
+    {
+      "id": "item-44",
+      "name": "Remote Detonator",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 550,
+      "weight": 0.02,
+      "level": 2,
+      "unlock_price": null
+    },
+    {
+      "id": "item-45",
+      "name": "Medium Hammer",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 800,
+      "weight": 1.23,
+      "level": 3,
+      "unlock_price": null
+    },
+    {
+      "id": "item-46",
+      "name": "Large Hammer",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 2400,
+      "weight": 3.18,
+      "level": 8,
+      "unlock_price": null
+    },
+    {
+      "id": "item-47",
+      "name": "Heavy Drill",
+      "category": "Снаряжение",
+      "role": "Поддержка",
+      "price": 1300,
+      "weight": 6.9,
+      "level": 28,
+      "unlock_price": null
+    },
+    {
+      "id": "item-48",
+      "name": "Binoculars",
+      "category": "Снаряжение",
+      "role": "Разведчик",
+      "price": 75,
+      "weight": 0.3,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-49",
+      "name": "Monocular",
+      "category": "Снаряжение",
+      "role": "Разведчик",
+      "price": 150,
+      "weight": 0.28,
+      "level": 2,
+      "unlock_price": null
+    },
+    {
+      "id": "item-50",
+      "name": "Range Finder",
+      "category": "Снаряжение",
+      "role": "Разведчик",
+      "price": 400,
+      "weight": 0.23,
+      "level": 8,
+      "unlock_price": null
+    },
+    {
+      "id": "item-51",
+      "name": "Infrared Range Finder",
+      "category": "Снаряжение",
+      "role": "Разведчик",
+      "price": 1200,
+      "weight": 0.43,
+      "level": 32,
+      "unlock_price": null
+    },
+    {
+      "id": "item-52",
+      "name": "Halligan Bar",
+      "category": "Снаряжение",
+      "role": "Пехота",
+      "price": 1100,
+      "weight": 2.8,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-53",
+      "name": "Basic Parachute",
+      "category": "Снаряжение",
+      "role": "Любая роль",
+      "price": 100,
+      "weight": 2.5,
+      "level": 0,
+      "unlock_price": null
+    },
+    {
+      "id": "item-54",
+      "name": "Sport Parachute",
+      "category": "Снаряжение",
+      "role": "Любая роль",
+      "price": 1000,
+      "weight": 9,
+      "level": 35,
+      "unlock_price": null
+    },
+    {
+      "id": "item-55",
+      "name": "Bobcat",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 500,
+      "weight": null,
+      "level": 0,
+      "unlock_price": 0
+    },
+    {
+      "id": "item-56",
+      "name": "Dune Buggy",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 1500,
+      "weight": null,
+      "level": 8,
+      "unlock_price": 25000
+    },
+    {
+      "id": "item-57",
+      "name": "URAL",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 5000,
+      "weight": null,
+      "level": 3,
+      "unlock_price": 35000
+    },
+    {
+      "id": "item-58",
+      "name": "Ural Defender",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 6000,
+      "weight": null,
+      "level": 18,
+      "unlock_price": 75000
+    },
+    {
+      "id": "item-59",
+      "name": "Ural Defender [M249]",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 6750,
+      "weight": null,
+      "level": 25,
+      "unlock_price": 125000
+    },
+    {
+      "id": "item-60",
+      "name": "Kodiak",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 2500,
+      "weight": null,
+      "level": 0,
+      "unlock_price": 0
+    },
+    {
+      "id": "item-61",
+      "name": "Kodiak [M249]",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 3750,
+      "weight": null,
+      "level": 6,
+      "unlock_price": 50000
+    },
+    {
+      "id": "item-62",
+      "name": "Kodiak [Pickup]",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 3000,
+      "weight": null,
+      "level": 10,
+      "unlock_price": 35000
+    },
+    {
+      "id": "item-63",
+      "name": "Humvee",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 3000,
+      "weight": null,
+      "level": 15,
+      "unlock_price": 25000
+    },
+    {
+      "id": "item-64",
+      "name": "Humvee [M249]",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 3750,
+      "weight": null,
+      "level": 20,
+      "unlock_price": 125000
+    },
+    {
+      "id": "item-65",
+      "name": "Humvee [Minigun]",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 4500,
+      "weight": null,
+      "level": 30,
+      "unlock_price": 150000
+    },
+    {
+      "id": "item-66",
+      "name": "L2A6",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 14000,
+      "weight": null,
+      "level": 35,
+      "unlock_price": 500000
+    },
+    {
+      "id": "item-67",
+      "name": "SPH-2",
+      "category": "Транспорт",
+      "role": "Водитель",
+      "price": 8000,
+      "weight": null,
+      "level": 90,
+      "unlock_price": null
+    },
+    {
+      "id": "item-68",
+      "name": "MH-6",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 6250,
+      "weight": null,
+      "level": 0,
+      "unlock_price": 0
+    },
+    {
+      "id": "item-69",
+      "name": "AH-6M [Miniguns]",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 7000,
+      "weight": null,
+      "level": 4,
+      "unlock_price": 50000
+    },
+    {
+      "id": "item-70",
+      "name": "AH-6R [Rockets]",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 12500,
+      "weight": null,
+      "level": 20,
+      "unlock_price": 250000
+    },
+    {
+      "id": "item-71",
+      "name": "Z20 Lakota",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 7400,
+      "weight": null,
+      "level": 10,
+      "unlock_price": 35000
+    },
+    {
+      "id": "item-72",
+      "name": "Z20 Lakota [Miniguns]",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 8000,
+      "weight": null,
+      "level": 25,
+      "unlock_price": 75000
+    },
+    {
+      "id": "item-73",
+      "name": "Havoc",
+      "category": "Транспорт",
+      "role": "Пилот",
+      "price": 18000,
+      "weight": null,
+      "level": 35,
+      "unlock_price": 500000
+    }
+  ]
+}

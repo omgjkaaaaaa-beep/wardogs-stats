@@ -1,0 +1,260 @@
+{
+  "reviewed_at": "2026-10-01",
+  "catalog_items": 73,
+  "known_catalog_unlock_costs": 22,
+  "ammunition_items": 87,
+  "known_ammunition_unlock_costs": 46,
+  "incomplete": true,
+  "unknown_catalog_items": [
+    {
+      "id": "item-1",
+      "name": "A-91"
+    },
+    {
+      "id": "item-2",
+      "name": "Bushmaster M17S"
+    },
+    {
+      "id": "item-3",
+      "name": "KH-2002"
+    },
+    {
+      "id": "item-4",
+      "name": "T-21"
+    },
+    {
+      "id": "item-5",
+      "name": "GGX 17"
+    },
+    {
+      "id": "item-6",
+      "name": "AK74"
+    },
+    {
+      "id": "item-7",
+      "name": "Galil"
+    },
+    {
+      "id": "item-8",
+      "name": "Judge"
+    },
+    {
+      "id": "item-9",
+      "name": "M4"
+    },
+    {
+      "id": "item-10",
+      "name": "FAL"
+    },
+    {
+      "id": "item-11",
+      "name": "M1911"
+    },
+    {
+      "id": "item-12",
+      "name": "MP43"
+    },
+    {
+      "id": "item-13",
+      "name": "RPG-7"
+    },
+    {
+      "id": "item-14",
+      "name": "M500"
+    },
+    {
+      "id": "item-15",
+      "name": "M249 SAW"
+    },
+    {
+      "id": "item-16",
+      "name": "9K333 Verba"
+    },
+    {
+      "id": "item-17",
+      "name": "MAAWS"
+    },
+    {
+      "id": "item-18",
+      "name": "PKM"
+    },
+    {
+      "id": "item-19",
+      "name": "MGL-40"
+    },
+    {
+      "id": "item-20",
+      "name": "AMP-9"
+    },
+    {
+      "id": "item-21",
+      "name": "PP-19 Vityaz"
+    },
+    {
+      "id": "item-22",
+      "name": "MP5"
+    },
+    {
+      "id": "item-23",
+      "name": "Super-45"
+    },
+    {
+      "id": "item-24",
+      "name": "Scout Rifle TD"
+    },
+    {
+      "id": "item-25",
+      "name": "SKS"
+    },
+    {
+      "id": "item-26",
+      "name": "Mosin Nagant"
+    },
+    {
+      "id": "item-27",
+      "name": "Compound Bow"
+    },
+    {
+      "id": "item-28",
+      "name": "SV98"
+    },
+    {
+      "id": "item-29",
+      "name": "MK22"
+    },
+    {
+      "id": "item-30",
+      "name": "BMR-308"
+    },
+    {
+      "id": "item-31",
+      "name": "AMR 50"
+    },
+    {
+      "id": "item-32",
+      "name": "Enox"
+    },
+    {
+      "id": "item-33",
+      "name": "Bandage"
+    },
+    {
+      "id": "item-34",
+      "name": "Emergency Resuscitator"
+    },
+    {
+      "id": "item-35",
+      "name": "Field Resuscitator"
+    },
+    {
+      "id": "item-36",
+      "name": "Individual First Aid Kit"
+    },
+    {
+      "id": "item-38",
+      "name": "Adrenaline Pen"
+    },
+    {
+      "id": "item-39",
+      "name": "Medical Bag"
+    },
+    {
+      "id": "item-40",
+      "name": "Fuel Can"
+    },
+    {
+      "id": "item-41",
+      "name": "Small Hammer"
+    },
+    {
+      "id": "item-42",
+      "name": "Wrench"
+    },
+    {
+      "id": "item-43",
+      "name": "Light Drill"
+    },
+    {
+      "id": "item-44",
+      "name": "Remote Detonator"
+    },
+    {
+      "id": "item-47",
+      "name": "Heavy Drill"
+    },
+    {
+      "id": "item-48",
+      "name": "Binoculars"
+    },
+    {
+      "id": "item-49",
+      "name": "Monocular"
+    },
+    {
+      "id": "item-50",
+      "name": "Range Finder"
+    },
+    {
+      "id": "item-51",
+      "name": "Infrared Range Finder"
+    },
+    {
+      "id": "item-52",
+      "name": "Halligan Bar"
+    },
+    {
+      "id": "item-53",
+      "name": "Basic Parachute"
+    },
+    {
+      "id": "item-54",
+      "name": "Sport Parachute"
+    }
+  ],
+  "sources_checked": [
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809584533",
+      "result": "Purchase prices and levels; unlock costs mostly absent"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799243904",
+      "result": "External progression planner; explains TBD prices"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799535708",
+      "result": "WIP, no weapon table"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803852308",
+      "result": "WIP, no equipment table"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803852827",
+      "result": "WIP, no attachments table"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800107901",
+      "result": "Empty armor table"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806496167",
+      "result": "Community vehicle costs"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "result": "87 ammunition rows; 46 numeric or explicitly free/default unlocks"
+    }
+  ],
+  "discussion_scan": {
+    "queries": 51,
+    "completed": 17,
+    "rate_limited": 34,
+    "added_prices": 0
+  },
+  "blocked_sources": [
+    "https://gamingwithdaopa.ellatha.com/wardogs/toolbox-progression/",
+    "https://wand.gg/",
+    "https://wardogsfieldkit.com/en/"
+  ],
+  "note": "No price inferred from role level, N/A, nearby discussion amounts, or purchase price. Network additions saved in cloud draft; runtime access not applied."
+}

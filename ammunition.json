@@ -1,0 +1,877 @@
+{
+  "game": "WARDOGS",
+  "reviewed_at": "2026-10-01",
+  "note": "Таблица сообщества заявляет данные патча 22 сентября. N/A не означает бесплатную разблокировку. Цена покупки указана за единицу продажи источника; размер пачки не установлен.",
+  "items": [
+    {
+      "id": "ammo-1",
+      "name": ".308 Win Standard (FMJ)",
+      "price": 40,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-2",
+      "name": ".308 Win Standard (FMJ) (T)",
+      "price": 40,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-3",
+      "name": ".308 Win Armor Piercing (AP)",
+      "price": 180,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-4",
+      "name": ".308 Win Armor Piercing (AP) (T)",
+      "price": 180,
+      "unlock_price": 75000,
+      "requirement": "Career level 140 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-5",
+      "name": ".308 Win Flesh Damage (HP)",
+      "price": 70,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-6",
+      "name": ".308 Win Flesh Damage (HP) (T)",
+      "price": 70,
+      "unlock_price": 5000,
+      "requirement": "Career level 65 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-7",
+      "name": ".45 ACP Standard (FMJ)",
+      "price": 10,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-8",
+      "name": ".45 ACP Standard (FMJ) (T)",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-9",
+      "name": ".45 ACP Armor Piercing (AP)",
+      "price": 20,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-10",
+      "name": ".45 ACP Armor Piercing (AP) (T)",
+      "price": 20,
+      "unlock_price": 75000,
+      "requirement": "Career level 120 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-11",
+      "name": ".45 ACP Flesh Damage (HP)",
+      "price": 15,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-12",
+      "name": ".45 ACP Flesh Damage (HP) (T)",
+      "price": 15,
+      "unlock_price": 5000,
+      "requirement": "Career level 48 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-13",
+      "name": ".45 Colt Standard (FMJ)",
+      "price": 33,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-14",
+      "name": ".45 Colt Standard (FMJ) (T)",
+      "price": 33,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-15",
+      "name": ".45 Colt Armor Piercing (AP)",
+      "price": 66,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-16",
+      "name": ".45 Colt Armor Piercing (AP) (T)",
+      "price": 66,
+      "unlock_price": 75000,
+      "requirement": "Career level 110 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-17",
+      "name": ".45 Colt Flesh Damage (HP)",
+      "price": 50,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-18",
+      "name": ".45 Colt Flesh Damage (HP) (T)",
+      "price": 50,
+      "unlock_price": 5000,
+      "requirement": "Career level 25 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-19",
+      "name": "5.45mm Standard (FMJ)",
+      "price": 15,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-20",
+      "name": "5.45mm Standard (FMJ) (T)",
+      "price": 15,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-21",
+      "name": "5.45mm Armor Piercing (AP)",
+      "price": 40,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-22",
+      "name": "5.45mm Armor Piercing (AP) (T)",
+      "price": 40,
+      "unlock_price": 75000,
+      "requirement": "Career level 93 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-23",
+      "name": "5.45mm Flesh Damage (HP)",
+      "price": 25,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-24",
+      "name": "5.45mm Flesh Damage (HP) (T)",
+      "price": 25,
+      "unlock_price": 5000,
+      "requirement": "Career level 16 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-25",
+      "name": "5.56mm Standard (FMJ)",
+      "price": 15,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-26",
+      "name": "5.56mm Standard (FMJ) (T)",
+      "price": 15,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-27",
+      "name": "5.56mm Armor Piercing (AP)",
+      "price": 40,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-28",
+      "name": "5.56mm Armor Piercing (AP) (T)",
+      "price": 40,
+      "unlock_price": 75000,
+      "requirement": "Career level 83 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-29",
+      "name": "5.56mm Flesh Damage (HP)",
+      "price": 25,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-30",
+      "name": "5.56mm Flesh Damage (HP) (T)",
+      "price": 25,
+      "unlock_price": 5000,
+      "requirement": "Career level 10 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-31",
+      "name": "50AE Standard (FMJ)",
+      "price": 20,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-32",
+      "name": "50AE Standard (FMJ) (T)",
+      "price": 20,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-33",
+      "name": "50AE Armor Piercing (AP)",
+      "price": 90,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-34",
+      "name": "50AE Armor Piercing (AP) (T)",
+      "price": 90,
+      "unlock_price": 75000,
+      "requirement": "Career level 130 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-35",
+      "name": "50AE Flesh Damage (HP)",
+      "price": 35,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-36",
+      "name": "50AE Flesh Damage (HP) (T)",
+      "price": 35,
+      "unlock_price": 5000,
+      "requirement": "Career level 95 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-37",
+      "name": "7.62mm Standard (FMJ)",
+      "price": 40,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-38",
+      "name": "7.62mm Standard (FMJ) (T)",
+      "price": 40,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-39",
+      "name": "7.62mm Armor Piercing (AP)",
+      "price": 150,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-40",
+      "name": "7.62mm Armor Piercing (AP) (T)",
+      "price": 150,
+      "unlock_price": 50000,
+      "requirement": "Career level 63 - $50,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-41",
+      "name": "7.62mm Flesh Damage (HP)",
+      "price": 90,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-42",
+      "name": "7.62mm Flesh Damage (HP) (T)",
+      "price": 90,
+      "unlock_price": 5000,
+      "requirement": "Career level 11 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-43",
+      "name": "7.62x51mm Standard (FMJ)",
+      "price": 300,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-44",
+      "name": "7.62x51mm Standard (FMJ) (T)",
+      "price": 200,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-45",
+      "name": "7.62x51mm Armor Piercing (AP)",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-46",
+      "name": "7.62x51mm Armor Piercing (AP) (T)",
+      "price": 250,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-47",
+      "name": "762x51mm Flesh Damage (HP)",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-48",
+      "name": "762x51mm Flesh Damage (HP) (T)",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-49",
+      "name": "7.62x54mm Standard (FMJ)",
+      "price": 30,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-50",
+      "name": "7.62x54mm Standard (FMJ) (T)",
+      "price": 30,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-51",
+      "name": "7.62x54mm Armor Piercing (AP)",
+      "price": 90,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-52",
+      "name": "7.62x54mm Armor Piercing (AP) (T)",
+      "price": 90,
+      "unlock_price": 75000,
+      "requirement": "Career level 82 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-53",
+      "name": "7.62x54mm Flesh Damage (HP)",
+      "price": 55,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-54",
+      "name": "7.62x54mm Flesh Damage (HP) (T)",
+      "price": 55,
+      "unlock_price": 5000,
+      "requirement": "Career level 28 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-55",
+      "name": "9mm Standard (FMJ)",
+      "price": 10,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-56",
+      "name": "9mm Standard (FMJ) (T)",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-57",
+      "name": "9mm Armor Piercing (AP)",
+      "price": 20,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-58",
+      "name": "9mm Armor Piercing (AP) (T)",
+      "price": 20,
+      "unlock_price": 75000,
+      "requirement": "Career level 75 - $75,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-59",
+      "name": "9mm Flesh Damage (HP)",
+      "price": 15,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-60",
+      "name": "9mm Flesh Damage (HP) (T)",
+      "price": 15,
+      "unlock_price": 5000,
+      "requirement": "Career level 6 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-61",
+      "name": "12g",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-62",
+      "name": "12g 7mm Buckshot",
+      "price": 60,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-63",
+      "name": "12g Rifled Slug",
+      "price": 200,
+      "unlock_price": 5000,
+      "requirement": "Career level 41 - $5,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-64",
+      "name": ".50Cal Standard (FMJ)",
+      "price": 250,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-65",
+      "name": ".50Cal Standard (FMJ) (T)",
+      "price": 250,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-66",
+      "name": "120mm HEAT-MP Shell",
+      "price": 210,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-67",
+      "name": "122mm HE Rocket",
+      "price": 450,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-68",
+      "name": "155mm HE Shell",
+      "price": 120,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-69",
+      "name": "30mm HE Cannon",
+      "price": 500,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-70",
+      "name": "35x228mm Anti-Air Cannon",
+      "price": 200,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-71",
+      "name": "81mm",
+      "price": 600,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-72",
+      "name": "20x102mm",
+      "price": 600,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-73",
+      "name": "40mm",
+      "price": 100,
+      "unlock_price": 0,
+      "requirement": "Support level 35 - Free",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-74",
+      "name": "72mm",
+      "price": 600,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-75",
+      "name": "84mm",
+      "price": 200,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-76",
+      "name": "93mm",
+      "price": 200,
+      "unlock_price": 0,
+      "requirement": "Support level 5 - Free",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-77",
+      "name": "Stingray",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-78",
+      "name": "Ammo Supplies",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-79",
+      "name": "Build Supplies",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-80",
+      "name": "Fuel Supplies",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-81",
+      "name": "Mechanical Supplies",
+      "price": 10,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-82",
+      "name": "Battery",
+      "price": 150,
+      "unlock_price": 0,
+      "requirement": "Default",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-83",
+      "name": "High Capacity Battery",
+      "price": 300,
+      "unlock_price": 50000,
+      "requirement": "Career level 45 - $50,000",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-84",
+      "name": "Battery Charge",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-85",
+      "name": "C4 Charge",
+      "price": 250,
+      "unlock_price": 0,
+      "requirement": "Support level 2 - Free",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-86",
+      "name": "Improvised Explosive Device",
+      "price": null,
+      "unlock_price": null,
+      "requirement": "N/A",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    },
+    {
+      "id": "ammo-87",
+      "name": "Broadhead Arrow",
+      "price": 75,
+      "unlock_price": 0,
+      "requirement": "Recon level 17 - Free",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806517251",
+      "source_status": "community_unverified",
+      "source_patch": "2026-09-22"
+    }
+  ]
+}

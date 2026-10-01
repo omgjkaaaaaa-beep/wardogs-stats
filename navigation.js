@@ -11,7 +11,7 @@ for (const [id] of toolNames) {
 const toolTabs=document.createElement('div');toolTabs.className='tool-tabs';toolTabs.setAttribute('aria-label','Калькуляторы');
 for (const [id,name] of toolNames) {const a=document.createElement('a');a.href='#'+id;a.textContent=name;toolTabs.append(a);}
 toolSection.prepend(toolTabs);
-const panes={home:['home','online','game-gallery'],maps:['maps-screen','map-planner'],tools:['tools'],catalog:['arsenal'],guides:['guides'],news:['content'],achievements:['achievements']};
+const panes={home:['home','online','game-gallery'],maps:['maps-screen','map-planner'],tools:['tools'],catalog:['arsenal'],prices:['prices'],guides:['guides'],news:['content'],achievements:['achievements']};
 const globalNotice=document.querySelector('main > .notice');const launcher=document.querySelector('.tool-launcher');
 function showPage(scroll=false) {
   const id=decodeURIComponent(location.hash.slice(1)) || 'home';

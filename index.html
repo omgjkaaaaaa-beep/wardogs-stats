@@ -5,39 +5,36 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
   <title>WARDOGS — Инструменты, гайды и новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=arsenal-1">
-  <script src="./app.js?v=arsenal-1" defer></script>
-  <script src="./calculator.js?v=arsenal-1" defer></script>
-  <script src="./budget.js?v=arsenal-1" defer></script>
-  <script src="./catalog.js?v=arsenal-1" defer></script>
-  <script src="./planner.js?v=arsenal-1" defer></script>
+  <link rel="stylesheet" href="./style.css?v=layout-1">
+  <script src="./app.js?v=layout-1" defer></script>
+  <script src="./calculator.js?v=layout-1" defer></script>
+  <script src="./budget.js?v=layout-1" defer></script>
+  <script src="./catalog.js?v=layout-1" defer></script>
+  <script src="./planner.js?v=layout-1" defer></script>
+  <script src="./navigation.js?v=layout-1" defer></script>
 </head>
 <body>
   <header>
     <a class="logo" href="./">W<span>△</span>RDOGS <small>RU</small></a>
     <nav aria-label="Разделы">
-      <a class="active" href="#content">Новости</a>
-      <a href="#map-planner">Карты</a>
-      <a href="#guides">Гайды</a>
-      <a href="#tools">Инструменты</a>
-      <a href="#arsenal">Каталог</a><a href="#achievements">Достижения</a>
-      <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Игра в Steam ↗</a>
+      <a href="#home">Главная</a><a href="#maps-screen">Карты</a><a href="#tools">Калькуляторы</a><a href="#arsenal">Каталог</a><a href="#guides">Гайды</a><a href="#content">Новости</a><a href="#achievements">Достижения</a>
     </nav>
     <span class="demo">● СООБЩЕСТВО RU</span>
   </header>
   <main>
-    <section class="hero">
-      <div class="eyebrow">ПАТЧИ · СЕЗОНЫ · ОБЪЯВЛЕНИЯ</div>
+    <section class="hero" id="home">
+      <div class="eyebrow">РУССКОЕ СООБЩЕСТВО</div>
       <h1>Гайды и инструменты<br><em>WARDOGS</em></h1>
       <p>Соберите снаряжение, посчитайте расходы и сравните предметы.<br>Здесь же — новости разработчиков и гайды на русском.</p>
-      <div class="hero-mark" aria-hidden="true">W<span>НОВОСТИ / 01</span></div>
+      <div class="hero-mark" aria-hidden="true">W<span>WARDOGS / RU</span></div>
     </section>
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
     <div class="tool-launcher" aria-label="Быстрый выбор инструмента"><a href="#budget-tool"><span>01 / СНАРЯЖЕНИЕ</span><strong>Собрать комплект →</strong><small>Предметы, цены и бюджет</small></a><a href="#compare-tool"><span>02 / СРАВНЕНИЕ</span><strong>Выбрать предметы →</strong><small>Цена, масса и доступ по роли</small></a><a href="#vehicle-tool"><span>03 / ТРАНСПОРТ</span><strong>Посчитать расходы →</strong><small>Покупка и разблокировка</small></a><a href="#range-tool"><span>04 / КООРДИНАТЫ</span><strong>Рассчитать расстояние →</strong><small>Дальность и направление</small></a></div>
     <section id="online" aria-label="Онлайн WARDOGS" aria-live="polite"></section>
+    <section id="maps-screen"><div class="section-head"><div><div class="eyebrow">ТАКТИЧЕСКИЕ КАРТЫ</div><h2>Карты WARDOGS</h2></div></div><p class="muted">Выберите карту. Для просмотра используем карту сообщества N4Lab; свой план с точками и маршрутом можно составить ниже.</p><div class="map-tabs" aria-label="Выбор карты"><button type="button" data-world-map="bakurani" aria-pressed="true">Bakurani</button><button type="button" data-world-map="ozeti" aria-pressed="false">Ozeti</button><button type="button" data-world-map="zestafona" aria-pressed="false">Zestafona</button></div><div class="world-map-frame"><iframe id="world-map" title="Интерактивная карта Bakurani от N4Lab" src="https://wardogs.n4lab.dev/?map=bakurani&amp;mode=view&amp;lang=ru" loading="lazy" referrerpolicy="no-referrer" allowfullscreen></iframe></div><div class="map-footer"><span>Карта: N4Lab · внешний сервис</span><a id="world-map-link" href="https://wardogs.n4lab.dev/?map=bakurani&amp;mode=view&amp;lang=ru" target="_blank" rel="noopener noreferrer">Открыть карту отдельно ↗</a><a href="#map-planner">План позиций и маршрута ↓</a></div><p class="muted">Если карта не отображается внутри страницы, откройте её отдельно.</p></section>
     <section id="map-planner" aria-label="Планировщик карты">
       <div class="section-head"><div><div class="eyebrow">КАРТЫ И ПОЗИЦИИ</div><h2>Планировщик на карте</h2></div></div>
-      <div class="about"><p><a id="external-map" href="https://wardogs.n4lab.dev/?map=bakurani&mode=view&lang=ru" target="_blank" rel="noopener noreferrer">Открыть карту Bakurani в N4Lab ↗</a></p><p class="muted">Внешняя карта сообщества: описана автором в Steam. Здесь её данные не копируются.</p><p>Поставьте свою позицию и цель или отметьте маршрут. По умолчанию здесь координатная сетка, без рельефа. Можно загрузить своё изображение карты и задать его границы по координатам игры.</p>
+      <div class="about"><p><a id="external-map" href="https://wardogs.n4lab.dev/?map=bakurani&mode=view&lang=ru" target="_blank" rel="noopener noreferrer">Открыть карту Bakurani в N4Lab ↗</a></p><p class="muted">Карта сообщества N4Lab.</p><p>Поставьте свою позицию и цель или отметьте маршрут. По умолчанию здесь координатная сетка, без рельефа. Можно загрузить своё изображение карты и задать его границы по координатам игры.</p>
       <div class="budget-fields"><label>Название плана<select id="plan-map"><option>Bakurani</option><option>Ozeti</option><option>Zestafona</option></select></label><label>Режим клика<select id="plan-mode"><option value="origin">Моя позиция</option><option value="target">Цель</option><option value="route">Точка маршрута</option></select></label><label>Изображение карты<input id="plan-image" type="file" accept="image/png,image/jpeg,image/webp"></label></div>
       <details class="map-calibration"><summary>Границы изображения и направление оси Y</summary><p class="muted">Совместите границы изображения с координатами карты. Начальные 0–160 — диапазон сетки для планирования, а не подтверждённая привязка каждой карты.</p><div class="budget-fields"><label>X слева<input id="map-x-min" type="number" value="0" step="any"></label><label>X справа<input id="map-x-max" type="number" value="160" step="any"></label><label>Y снизу<input id="map-y-min" type="number" value="0" step="any"></label><label>Y сверху<input id="map-y-max" type="number" value="160" step="any"></label></div></details>
       <canvas id="plan-canvas" width="900" height="600" aria-label="Сетка карты: используйте поля координат для размещения точек без мыши"></canvas>
@@ -51,7 +48,7 @@
 <p class="muted">Масштаб: 1 единица координат = 100 м по руководствам сообщества. Азимут: 0° — север, 90° — восток. Проверьте направление оси Y по карте игры; при необходимости переключите его. Это геометрический расчёт, а не готовое решение баллистики.</p>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Как снять координаты в игре ↗</a></div>
 <div class="section-head"><div><div class="eyebrow">СНАРЯЖЕНИЕ И ДЕНЬГИ</div><h2 id="budget-tool">Сборка снаряжения</h2></div></div>
-<div class="about"><p>Выберите предметы из каталога. Их цены подставятся автоматически; при необходимости можно изменить цену по магазину игры. Посчитаем стоимость комплекта и сколько полных выходов вы сможете оплатить, не затрагивая резерв. Сохранённые комплекты остаются в этом браузере.</p>
+<div class="about"><p>Добавьте предметы и укажите свой бюджет. Цены подставятся из каталога, а комплект можно сохранить для следующей игры.</p>
 <div id="catalog-status" class="notice">Загружаем каталог предметов…</div><div class="budget-fields"><label>Категория<select id="catalog-category"><option value="">Все категории</option></select></label><label>Роль<select id="catalog-role"><option value="">Все роли</option></select></label><label>Поиск предмета<input id="catalog-search" type="search" placeholder="Например: M4"></label></div><div class="catalog-pick"><label>Предмет<select id="catalog-item"></select></label><button id="catalog-add" type="button" disabled>Добавить в комплект</button></div><p id="catalog-detail" class="muted" aria-live="polite"></p><form id="budget-form"><div class="budget-fields"><label>Денег на счету<input id="wallet" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Оставить в резерве<input id="reserve" type="number" min="0" max="1000000000" step="1" value="0" required></label><label>Планируемые выходы<input id="deployments" type="number" min="1" max="10000" step="1" value="1" required></label></div>
 <div id="budget-items"></div><div class="tool-actions"><button type="button" id="add-item">Добавить предмет</button><button type="submit">Рассчитать бюджет</button></div></form>
 <div id="budget-result" aria-live="polite">Добавьте предметы и их цены.</div>
@@ -59,7 +56,7 @@
 <p class="muted">Цена считается по введённым значениям. Доход, найденные предметы и возврат снаряжения не учитываются; это план расходов, а не прогноз заработка.</p></div>
 <div class="section-head"><div><div class="eyebrow">ПОДБОР СНАРЯЖЕНИЯ</div><h2 id="compare-tool">Сравнение предметов</h2></div></div><div class="about"><div class="budget-fields"><label>Первый предмет<select id="compare-a"></select></label><label>Второй предмет<select id="compare-b"></select></label></div><div id="comparison-result" aria-live="polite">Выберите предметы после загрузки каталога.</div><p class="muted">Сравните стоимость покупки и разблокировки, массу, калибр или характеристики техники. Значения, которых нет в источнике, отмечены отдельно.</p></div>
 <div class="section-head"><div><div class="eyebrow">ТРАНСПОРТ</div><h2 id="vehicle-tool">Покупка и разблокировка</h2></div></div><div class="about"><div class="budget-fields"><label>Транспорт<select id="vehicle-select"></select></label><label>Уже разблокирован<select id="vehicle-unlocked"><option value="yes">Да</option><option value="no">Нет</option></select></label><label>Планируемые покупки<input id="vehicle-count" type="number" min="1" max="10000" step="1" value="1"></label></div><div id="vehicle-result" aria-live="polite">Загружаем цены транспорта…</div><p class="muted">Цена разблокировки платится один раз в этом расчёте. Боеприпасы, топливо, ремонт и правила сезонных сбросов здесь не учитываются.</p></div>
-<div class="section-head"><div><div class="eyebrow">МИНОМЁТ L81</div><h2>Расход боеприпасов</h2></div></div><div class="about"><p>По руководству сообщества, один снаряд L81 расходует 30 единиц боеприпасов. Посчитайте запас для серии залпов; если значение в вашей версии игры другое, измените его.</p><form id="ammo-form" class="range-form"><label>Миномётов<input id="ammo-guns" type="number" min="1" max="1000" value="1" required></label><label>Снарядов в залпе на орудие<input id="ammo-shells" type="number" min="1" max="3" value="3" required></label><label>Залпов<input id="ammo-volleys" type="number" min="1" max="10000" value="5" required></label><label>Расход на снаряд<input id="ammo-per-shell" type="number" min="1" max="100000" value="30" required></label><label>Запас боеприпасов<input id="ammo-stock" type="number" min="0" max="1000000000" value="1000" required></label><button type="submit">Посчитать боезапас</button></form><div id="ammo-result" aria-live="polite">Введите план стрельбы.</div><p class="muted">Это расход припасов, а не денег. Значение 30 взято из наблюдений сообщества, не из официального API. Для SPH-2 значение по умолчанию не подтверждено.</p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Источник: руководство по L81 ↗</a></div>
+<div class="section-head"><div><div class="eyebrow">МИНОМЁТ L81</div><h2 id="ammo-tool">Расход боеприпасов</h2></div></div><div class="about"><p>По руководству сообщества, один снаряд L81 расходует 30 единиц боеприпасов. Посчитайте запас для серии залпов; если значение в вашей версии игры другое, измените его.</p><form id="ammo-form" class="range-form"><label>Миномётов<input id="ammo-guns" type="number" min="1" max="1000" value="1" required></label><label>Снарядов в залпе на орудие<input id="ammo-shells" type="number" min="1" max="3" value="3" required></label><label>Залпов<input id="ammo-volleys" type="number" min="1" max="10000" value="5" required></label><label>Расход на снаряд<input id="ammo-per-shell" type="number" min="1" max="100000" value="30" required></label><label>Запас боеприпасов<input id="ammo-stock" type="number" min="0" max="1000000000" value="1000" required></label><button type="submit">Посчитать боезапас</button></form><div id="ammo-result" aria-live="polite">Введите план стрельбы.</div><p class="muted">Это расход припасов, а не денег. Значение 30 взято из наблюдений сообщества, не из официального API. Для SPH-2 значение по умолчанию не подтверждено.</p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Источник: руководство по L81 ↗</a></div>
 </section>
 <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
 <section id="arsenal"><div class="section-head"><div><div class="eyebrow">СПРАВОЧНИК</div><h2>Оружие, снаряжение и техника</h2></div></div><p class="muted">Выберите предмет, посмотрите характеристики и добавьте его в свой комплект. Изображения и таблицы — из руководства сообщества Steam.</p><div class="budget-fields"><label>Найти предмет<input id="arsenal-search" type="search" placeholder="Название, калибр или класс"></label><label>Категория<select id="arsenal-category"><option value="">Все предметы</option><option>Оружие</option><option>Снаряжение</option><option>Транспорт</option></select></label><label>Порядок<select id="arsenal-sort"><option value="name">По названию</option><option value="cheap">Сначала дешевле</option><option value="level">По уровню доступа</option></select></label></div><p id="arsenal-count" class="muted" aria-live="polite"></p><div id="arsenal-grid" class="arsenal-grid"></div></section>
@@ -74,7 +71,7 @@
       </div>
     </section>
     <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
-    <footer><span>WARDOGS RU / независимый проект</span><span>MAPS / 01</span></footer>
+    <footer><span>WARDOGS RU / независимый проект</span><span>WARDOGS RU</span></footer>
   </main>
 </body>
 </html>

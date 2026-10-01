@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
   <title>WARDOGS — Новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=news-portal-2">
-  <script src="./app.js?v=news-portal-2" defer></script>
+  <link rel="stylesheet" href="./style.css?v=news-overview-1">
+  <script src="./app.js?v=news-overview-1" defer></script>
 </head>
 <body>
   <header>
     <a class="logo" href="./">W<span>△</span>RDOGS <small>NEWS</small></a>
     <nav aria-label="Разделы">
       <a class="active" href="#content">Новости</a>
+      <a href="#achievements">Достижения</a>
       <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Игра в Steam ↗</a>
     </nav>
     <span class="demo">● НОВОСТИ НА РУССКОМ</span>
@@ -25,7 +26,9 @@
       <div class="hero-mark" aria-hidden="true">W<span>НОВОСТИ / 01</span></div>
     </section>
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
+    <section id="online" aria-label="Онлайн WARDOGS" aria-live="polite"></section>
     <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
+    <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
     <footer><span>WARDOGS NEWS / независимый проект</span><span>NEWS / 01</span></footer>
   </main>
 </body>

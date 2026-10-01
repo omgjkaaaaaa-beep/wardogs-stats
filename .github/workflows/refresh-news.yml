@@ -15,12 +15,15 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/refresh-news.py
+      - name: Refresh online count and achievements
+        continue-on-error: true
+        run: python scripts/refresh-overview.py
       - name: Commit and publish updated snapshot
         run: |
-          if git diff --quiet -- news.json; then exit 0; fi
+          if git diff --quiet -- news.json overview.json; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add news.json
+          git add news.json overview.json
           git commit -m 'Update official Wardogs news'
           git push
       - name: Request Pages rebuild

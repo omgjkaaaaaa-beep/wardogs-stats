@@ -15,7 +15,13 @@
       "price": 0,
       "weight": 3.17,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/12654047306917892079/2A1191D618112816A36EB34B7BAD2442EAFE4EFD/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 0. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-2",
@@ -25,7 +31,13 @@
       "price": 0,
       "weight": 3.17,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14631476265095561439/DD5A495DC38CD9D4AF1BD8DC7203A8883A62B83A/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 0. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-3",
@@ -35,7 +47,13 @@
       "price": 0,
       "weight": 3.17,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/17475045692340050099/801437AD123F06FA55868ED033F33459D57D81CD/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 0. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-4",
@@ -45,7 +63,13 @@
       "price": 600,
       "weight": 3.27,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/17341232404600863006/40686B6924A1C092C6DE601A99D701A50871D90F/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 0. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-5",
@@ -55,7 +79,13 @@
       "price": 200,
       "weight": 0.63,
       "level": 1,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/13093288371317430242/9251A80B54202019FF56E33224F46623B3FD2163/",
+      "details": {
+        "Класс": "Пистолет",
+        "Калибр": "9x19"
+      },
+      "description": "Пистолет. Доступна для роли «Пехота» с уровня 1. Калибр по таблице сообщества — 9x19."
     },
     {
       "id": "item-6",
@@ -65,7 +95,13 @@
       "price": 1600,
       "weight": 3,
       "level": 3,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/15492106144528491388/DF241153B636D6C32844B451D940789478AABF11/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.45x39"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 3. Калибр по таблице сообщества — 5.45x39."
     },
     {
       "id": "item-7",
@@ -75,7 +111,13 @@
       "price": 2200,
       "weight": 3.95,
       "level": 10,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/16455593634649890106/5DBDDA29174186748B6175E83F09F5EFF594C1AD/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 10. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-8",
@@ -85,7 +127,13 @@
       "price": 250,
       "weight": 0.82,
       "level": 18,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/13009830412542632800/D58AA0D53D62EBFC9D54F2D8E1EB59CDA50A4990/",
+      "details": {
+        "Класс": "Пистолет",
+        "Калибр": ".45"
+      },
+      "description": "Пистолет. Доступна для роли «Пехота» с уровня 18. Калибр по таблице сообщества — .45."
     },
     {
       "id": "item-9",
@@ -95,7 +143,13 @@
       "price": 2800,
       "weight": 2.92,
       "level": 20,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14457171468027315802/0EE20D3DC33D508428F7946AF9A98C584A4602C0/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 20. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-10",
@@ -105,7 +159,13 @@
       "price": 6500,
       "weight": 4.25,
       "level": 35,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/13880459127132529604/CD25A5A2DD18D6ECE60440E8C8C70CF59DE52EAD/",
+      "details": {
+        "Класс": "ШВ",
+        "Калибр": ".308"
+      },
+      "description": "Штурмовая винтовка. Доступна для роли «Пехота» с уровня 35. Калибр по таблице сообщества — .308."
     },
     {
       "id": "item-11",
@@ -115,7 +175,13 @@
       "price": 300,
       "weight": 1.1,
       "level": 40,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/12574175465881268175/132ED15B78C9DBA09EFCBC325A88F8B8DCBE4EAA/",
+      "details": {
+        "Класс": "Пистолет",
+        "Калибр": ".45"
+      },
+      "description": "Пистолет. Доступна для роли «Пехота» с уровня 40. Калибр по таблице сообщества — .45."
     },
     {
       "id": "item-12",
@@ -125,7 +191,13 @@
       "price": 400,
       "weight": 3.2,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/18076651914569415264/42A50609BEDCAC0BC9BED26ED42E15EC40BBE34D/",
+      "details": {
+        "Класс": "Дробовик",
+        "Калибр": "12"
+      },
+      "description": "Дробовик. Доступна для роли «Поддержка» с уровня 0. Калибр по таблице сообщества — 12."
     },
     {
       "id": "item-13",
@@ -135,7 +207,13 @@
       "price": 2000,
       "weight": 6.3,
       "level": 5,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/18237579756467161903/6B252A69C647AD6954C0466E3E57E06A168E4A30/",
+      "details": {
+        "Класс": "Гранатомёт",
+        "Калибр": "93"
+      },
+      "description": "Гранатомёт. Доступна для роли «Поддержка» с уровня 5. Калибр по таблице сообщества — 93."
     },
     {
       "id": "item-14",
@@ -145,7 +223,13 @@
       "price": 1200,
       "weight": 3.52,
       "level": 10,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14401263343042656166/FB71309A91C9F26DBD207C938C58E08D31D66098/",
+      "details": {
+        "Класс": "Дробовик",
+        "Калибр": "12"
+      },
+      "description": "Дробовик. Доступна для роли «Поддержка» с уровня 10. Калибр по таблице сообщества — 12."
     },
     {
       "id": "item-15",
@@ -155,7 +239,13 @@
       "price": 3200,
       "weight": 7.5,
       "level": 15,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14530578455864141347/EF3F3CCEE1E0B96F1FC6C4BAE71D3C15478F3EE7/",
+      "details": {
+        "Класс": "Пулемет",
+        "Калибр": "5.56x45"
+      },
+      "description": "Пулемет. Доступна для роли «Поддержка» с уровня 15. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-16",
@@ -165,7 +255,13 @@
       "price": 800,
       "weight": 17.25,
       "level": 16,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14944285813405054864/7B2CEB24702B7F6FD06AC099FAFE6A38F3396B8C/",
+      "details": {
+        "Класс": "Гранатомёт",
+        "Калибр": "72"
+      },
+      "description": "Гранатомёт. Доступна для роли «Поддержка» с уровня 16. Калибр по таблице сообщества — 72."
     },
     {
       "id": "item-17",
@@ -175,7 +271,13 @@
       "price": 2600,
       "weight": 7,
       "level": 20,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/16480503416657606521/1CF78569D63F25F80E7E45AAEDAC35B19FB6A657/",
+      "details": {
+        "Класс": "Гранатомёт",
+        "Калибр": "84"
+      },
+      "description": "Гранатомёт. Доступна для роли «Поддержка» с уровня 20. Калибр по таблице сообщества — 84."
     },
     {
       "id": "item-18",
@@ -185,7 +287,13 @@
       "price": 4500,
       "weight": 7.5,
       "level": 30,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14818204945492922257/D5B94248E005FA687039AF8DF9E1DADAACEE333B/",
+      "details": {
+        "Класс": "Пулемет",
+        "Калибр": "7.62x54"
+      },
+      "description": "Пулемет. Доступна для роли «Поддержка» с уровня 30. Калибр по таблице сообщества — 7.62x54."
     },
     {
       "id": "item-19",
@@ -195,7 +303,13 @@
       "price": 6000,
       "weight": 5.3,
       "level": 35,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/15215391743709724986/93123B18639BDAA53AD661D1772C670683B972BB/",
+      "details": {
+        "Класс": "Гранатомёт",
+        "Калибр": "40"
+      },
+      "description": "Гранатомёт. Доступна для роли «Поддержка» с уровня 35. Калибр по таблице сообщества — 40."
     },
     {
       "id": "item-20",
@@ -205,7 +319,13 @@
       "price": 900,
       "weight": 1.4,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/13171277672664484549/BE3C995A774D59E066CA274BDAE6350A25179DE9/",
+      "details": {
+        "Класс": "ПП",
+        "Калибр": "9x19"
+      },
+      "description": "Пистолет-пулемёт. Доступна для роли «Медик» с уровня 0. Калибр по таблице сообщества — 9x19."
     },
     {
       "id": "item-21",
@@ -215,7 +335,13 @@
       "price": 1200,
       "weight": 2.9,
       "level": 4,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/15151687257587083791/547C5E263D0D295D2EA0D1E75E8222974A2F6CC7/",
+      "details": {
+        "Класс": "ПП",
+        "Калибр": "9x19"
+      },
+      "description": "Пистолет-пулемёт. Доступна для роли «Медик» с уровня 4. Калибр по таблице сообщества — 9x19."
     },
     {
       "id": "item-22",
@@ -225,7 +351,13 @@
       "price": 1500,
       "weight": 2.54,
       "level": 15,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14687835020321800305/560ECB296C7AD23D19258364757EF1F8DB22412A/",
+      "details": {
+        "Класс": "ПП",
+        "Калибр": "9x19"
+      },
+      "description": "Пистолет-пулемёт. Доступна для роли «Медик» с уровня 15. Калибр по таблице сообщества — 9x19."
     },
     {
       "id": "item-23",
@@ -235,7 +367,13 @@
       "price": 2600,
       "weight": 3,
       "level": 35,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/9729375312241537262/AB67E75D21A4335817CCF8921652F2743C6A948A/",
+      "details": {
+        "Класс": "ПП",
+        "Калибр": ".45"
+      },
+      "description": "Пистолет-пулемёт. Доступна для роли «Медик» с уровня 35. Калибр по таблице сообщества — .45."
     },
     {
       "id": "item-24",
@@ -245,7 +383,13 @@
       "price": 1100,
       "weight": 2.95,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/13529965561431205164/C314DCD9970C206C425144825015CC94AAA0DF4A/",
+      "details": {
+        "Класс": "СВ",
+        "Калибр": "5.56x45"
+      },
+      "description": "Снайперская винтовка. Доступна для роли «Разведчик» с уровня 0. Калибр по таблице сообщества — 5.56x45."
     },
     {
       "id": "item-25",
@@ -255,7 +399,13 @@
       "price": 2400,
       "weight": 3.85,
       "level": 5,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/17093829401898306607/337A210329EFA6804BFD39C597BA85B4AC581DC3/",
+      "details": {
+        "Класс": "Марксманка",
+        "Калибр": "7.62x39"
+      },
+      "description": "Марксманка. Доступна для роли «Разведчик» с уровня 5. Калибр по таблице сообщества — 7.62x39."
     },
     {
       "id": "item-26",
@@ -265,7 +415,13 @@
       "price": 4500,
       "weight": 4.1,
       "level": 10,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/16956663706642692042/D81103CE1F0A607BCB1DD1BF7737955616C78DBE/",
+      "details": {
+        "Класс": "СВ",
+        "Калибр": "7.62x54"
+      },
+      "description": "Снайперская винтовка. Доступна для роли «Разведчик» с уровня 10. Калибр по таблице сообщества — 7.62x54."
     },
     {
       "id": "item-27",
@@ -275,7 +431,13 @@
       "price": 800,
       "weight": 1.3,
       "level": 17,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/9455876726920521381/57E0ABC4DC6966E5813BDBCF9585294BFB90AF8B/",
+      "details": {
+        "Класс": "Лук",
+        "Калибр": "Стрелы"
+      },
+      "description": "Лук. Доступна для роли «Разведчик» с уровня 17. Калибр по таблице сообщества — Стрелы."
     },
     {
       "id": "item-28",
@@ -285,7 +447,13 @@
       "price": 5200,
       "weight": 5.8,
       "level": 19,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/10029701087021238569/E4BC31B61AE3F42C9EF91B1508D91E95F99268EF/",
+      "details": {
+        "Класс": "СВ",
+        "Калибр": "7.62x54"
+      },
+      "description": "Снайперская винтовка. Доступна для роли «Разведчик» с уровня 19. Калибр по таблице сообщества — 7.62x54."
     },
     {
       "id": "item-29",
@@ -295,7 +463,13 @@
       "price": 6400,
       "weight": 6.3,
       "level": 25,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/11391153943514536409/54B2F620063DB3E0F6100383902B4FD18E21C483/",
+      "details": {
+        "Класс": "СВ",
+        "Калибр": ".308"
+      },
+      "description": "Снайперская винтовка. Доступна для роли «Разведчик» с уровня 25. Калибр по таблице сообщества — .308."
     },
     {
       "id": "item-30",
@@ -305,7 +479,13 @@
       "price": 6000,
       "weight": 3.9,
       "level": 30,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/14025867323123425878/C129FC332F1637944F67D949813D29ACB9E67BB7/",
+      "details": {
+        "Класс": "Марксманка",
+        "Калибр": ".308"
+      },
+      "description": "Марксманка. Доступна для роли «Разведчик» с уровня 30. Калибр по таблице сообщества — .308."
     },
     {
       "id": "item-31",
@@ -315,7 +495,13 @@
       "price": 8800,
       "weight": 12.5,
       "level": 35,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/17820637001617103902/BD6547BA4A2859F7C27445CEF0E134AC636701D9/",
+      "details": {
+        "Класс": "СВ",
+        "Калибр": ".50"
+      },
+      "description": "Снайперская винтовка. Доступна для роли «Разведчик» с уровня 35. Калибр по таблице сообщества — .50."
     },
     {
       "id": "item-32",
@@ -325,7 +511,8 @@
       "price": 450,
       "weight": null,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-33",
@@ -335,7 +522,8 @@
       "price": 200,
       "weight": 0.08,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-34",
@@ -345,7 +533,8 @@
       "price": 0,
       "weight": 0.39,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-35",
@@ -355,7 +544,8 @@
       "price": 500,
       "weight": 0.39,
       "level": 2,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-36",
@@ -365,7 +555,8 @@
       "price": 800,
       "weight": 0.16,
       "level": 9,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-37",
@@ -375,7 +566,8 @@
       "price": 1600,
       "weight": 2.6,
       "level": 11,
-      "unlock_price": 50000
+      "unlock_price": 50000,
+      "details": {}
     },
     {
       "id": "item-38",
@@ -385,7 +577,8 @@
       "price": 250,
       "weight": null,
       "level": 14,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-39",
@@ -395,7 +588,8 @@
       "price": 2000,
       "weight": 3.45,
       "level": 24,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-40",
@@ -405,7 +599,8 @@
       "price": 150,
       "weight": 5,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-41",
@@ -415,7 +610,8 @@
       "price": 100,
       "weight": 0.32,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-42",
@@ -425,7 +621,8 @@
       "price": 150,
       "weight": null,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-43",
@@ -435,7 +632,8 @@
       "price": 600,
       "weight": 1.5,
       "level": 1,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-44",
@@ -445,7 +643,8 @@
       "price": 550,
       "weight": 0.02,
       "level": 2,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-45",
@@ -455,7 +654,8 @@
       "price": 800,
       "weight": 1.23,
       "level": 3,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-46",
@@ -465,7 +665,8 @@
       "price": 2400,
       "weight": 3.18,
       "level": 8,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-47",
@@ -475,7 +676,8 @@
       "price": 1300,
       "weight": 6.9,
       "level": 28,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-48",
@@ -485,7 +687,8 @@
       "price": 75,
       "weight": 0.3,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-49",
@@ -495,7 +698,8 @@
       "price": 150,
       "weight": 0.28,
       "level": 2,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-50",
@@ -505,7 +709,8 @@
       "price": 400,
       "weight": 0.23,
       "level": 8,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-51",
@@ -515,7 +720,8 @@
       "price": 1200,
       "weight": 0.43,
       "level": 32,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-52",
@@ -525,7 +731,8 @@
       "price": 1100,
       "weight": 2.8,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-53",
@@ -535,7 +742,8 @@
       "price": 100,
       "weight": 2.5,
       "level": 0,
-      "unlock_price": null
+      "unlock_price": null,
+      "details": {}
     },
     {
       "id": "item-54",
@@ -545,7 +753,9 @@
       "price": 1000,
       "weight": 9,
       "level": 35,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/11465796876884343015/9CCB47549E082AC6FEC2830A6BC04CE2ADE132F1/",
+      "details": {}
     },
     {
       "id": "item-55",
@@ -555,7 +765,14 @@
       "price": 500,
       "weight": null,
       "level": 0,
-      "unlock_price": 0
+      "unlock_price": 0,
+      "image_url": "https://images.steamusercontent.com/ugc/9958977322228278708/98984B03982171EFB77CA3D596B12877BC3F77E0/",
+      "details": {
+        "Места": "1 +1",
+        "Макс.скорость": "75",
+        "Прочность": "200"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-56",
@@ -565,7 +782,14 @@
       "price": 1500,
       "weight": null,
       "level": 8,
-      "unlock_price": 25000
+      "unlock_price": 25000,
+      "image_url": "https://images.steamusercontent.com/ugc/16247985906082053193/C71A129241178BD607A68DA053B03A4DEBCA90BB/",
+      "details": {
+        "Места": "1 +2",
+        "Макс.скорость": "130",
+        "Прочность": "400"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-57",
@@ -575,7 +799,14 @@
       "price": 5000,
       "weight": null,
       "level": 3,
-      "unlock_price": 35000
+      "unlock_price": 35000,
+      "image_url": "https://images.steamusercontent.com/ugc/9700615120365400349/CE92D66BF5AD97D0A3BD55F8AE5A25F95C3597BD/",
+      "details": {
+        "Места": "1 +2",
+        "Макс.скорость": "79",
+        "Прочность": "700"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-58",
@@ -585,7 +816,14 @@
       "price": 6000,
       "weight": null,
       "level": 18,
-      "unlock_price": 75000
+      "unlock_price": 75000,
+      "image_url": "https://images.steamusercontent.com/ugc/16118465296151456297/43C5EBED4A8394F4378470EC883268A73E640213/",
+      "details": {
+        "Места": "1 +2",
+        "Макс.скорость": "79",
+        "Прочность": "700"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-59",
@@ -595,7 +833,14 @@
       "price": 6750,
       "weight": null,
       "level": 25,
-      "unlock_price": 125000
+      "unlock_price": 125000,
+      "image_url": "https://images.steamusercontent.com/ugc/9395542906120423215/04C91B7945138DF2823EF38F2DB63E232DB4E658/",
+      "details": {
+        "Места": "1 +2",
+        "Макс.скорость": "79",
+        "Прочность": "700"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-60",
@@ -605,7 +850,14 @@
       "price": 2500,
       "weight": null,
       "level": 0,
-      "unlock_price": 0
+      "unlock_price": 0,
+      "image_url": "https://images.steamusercontent.com/ugc/17018274403321205471/A3FD27ED881CA08E5B10F5841001D464E30F3596/",
+      "details": {
+        "Места": "1 +3",
+        "Макс.скорость": "154",
+        "Прочность": "400"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +3 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-61",
@@ -615,7 +867,14 @@
       "price": 3750,
       "weight": null,
       "level": 6,
-      "unlock_price": 50000
+      "unlock_price": 50000,
+      "image_url": "https://images.steamusercontent.com/ugc/10090277866545253039/2710E5B24A74CBE73F11E4C97CFB3581B9C1AAA6/",
+      "details": {
+        "Места": "1 +4",
+        "Макс.скорость": "154",
+        "Прочность": "400"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +4 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-62",
@@ -625,7 +884,14 @@
       "price": 3000,
       "weight": null,
       "level": 10,
-      "unlock_price": 35000
+      "unlock_price": 35000,
+      "image_url": "https://images.steamusercontent.com/ugc/13727844895897021289/735774465EED055C72DB7E9C4D8597CFFACE53A1/",
+      "details": {
+        "Места": "1 +5",
+        "Макс.скорость": "154",
+        "Прочность": "400"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +5 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-63",
@@ -635,7 +901,14 @@
       "price": 3000,
       "weight": null,
       "level": 15,
-      "unlock_price": 25000
+      "unlock_price": 25000,
+      "image_url": "https://images.steamusercontent.com/ugc/11027459109624120618/6CCD8E01B7D6ED1423030AC76F83E39E66679FEE/",
+      "details": {
+        "Места": "1 +4",
+        "Макс.скорость": "113",
+        "Прочность": "500"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +4 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-64",
@@ -645,7 +918,14 @@
       "price": 3750,
       "weight": null,
       "level": 20,
-      "unlock_price": 125000
+      "unlock_price": 125000,
+      "image_url": "https://images.steamusercontent.com/ugc/16263044942647872339/7A277CD00E7A4ECEC800312E2859E058BCE2323A/",
+      "details": {
+        "Места": "1 +4",
+        "Макс.скорость": "113",
+        "Прочность": "500"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +4 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-65",
@@ -655,7 +935,14 @@
       "price": 4500,
       "weight": null,
       "level": 30,
-      "unlock_price": 150000
+      "unlock_price": 150000,
+      "image_url": "https://images.steamusercontent.com/ugc/9964286854382152548/CA33EACE463518F6450AE7FF6FDFBD30DA859956/",
+      "details": {
+        "Места": "1 +4",
+        "Макс.скорость": "113",
+        "Прочность": "500"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +4 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-66",
@@ -665,7 +952,14 @@
       "price": 14000,
       "weight": null,
       "level": 35,
-      "unlock_price": 500000
+      "unlock_price": 500000,
+      "image_url": "https://images.steamusercontent.com/ugc/17423401934989227588/50958A85A27A3D8A43DF7036C0D7D19DEFBF40CB/",
+      "details": {
+        "Места": "1 +1",
+        "Макс.скорость": "65",
+        "Прочность": "800"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-67",
@@ -675,7 +969,14 @@
       "price": 8000,
       "weight": null,
       "level": 90,
-      "unlock_price": null
+      "unlock_price": null,
+      "image_url": "https://images.steamusercontent.com/ugc/17423917454444738437/CA7BB7A9FABEE3D2A5497B0EE2224B78CBBED8D6/",
+      "details": {
+        "Места": "1 +2",
+        "Макс.скорость": "65",
+        "Прочность": "650"
+      },
+      "description": "Наземная техника для роли «Водитель». Вместимость по таблице: 1 +2 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-68",
@@ -685,7 +986,14 @@
       "price": 6250,
       "weight": null,
       "level": 0,
-      "unlock_price": 0
+      "unlock_price": 0,
+      "image_url": "https://images.steamusercontent.com/ugc/9253245713210315933/829CCC3C78C28F10074021FAC9A36B8B4706825A/",
+      "details": {
+        "Места": "1 +5",
+        "Макс.скорость": "350",
+        "Прочность": "400"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +5 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-69",
@@ -695,7 +1003,14 @@
       "price": 7000,
       "weight": null,
       "level": 4,
-      "unlock_price": 50000
+      "unlock_price": 50000,
+      "image_url": "https://images.steamusercontent.com/ugc/9546370582066662257/BB515823FB0B2C72349A8EAAE5098E7EF5E84E9E/",
+      "details": {
+        "Места": "1 +1",
+        "Макс.скорость": "350",
+        "Прочность": "400"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-70",
@@ -705,7 +1020,14 @@
       "price": 12500,
       "weight": null,
       "level": 20,
-      "unlock_price": 250000
+      "unlock_price": 250000,
+      "image_url": "https://images.steamusercontent.com/ugc/12481335762547918199/1B655461DA086F996FD83067A363164315DA8733/",
+      "details": {
+        "Места": "1 +1",
+        "Макс.скорость": "350",
+        "Прочность": "400"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-71",
@@ -715,7 +1037,14 @@
       "price": 7400,
       "weight": null,
       "level": 10,
-      "unlock_price": 35000
+      "unlock_price": 35000,
+      "image_url": "https://images.steamusercontent.com/ugc/11159502100830019393/BD0BEB440298256C70A98D1BB4109F04BFC5C881/",
+      "details": {
+        "Места": "1 +12",
+        "Макс.скорость": "445",
+        "Прочность": "600"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +12 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-72",
@@ -725,7 +1054,14 @@
       "price": 8000,
       "weight": null,
       "level": 25,
-      "unlock_price": 75000
+      "unlock_price": 75000,
+      "image_url": "https://images.steamusercontent.com/ugc/10651898978192750938/BD0BEB440298256C70A98D1BB4109F04BFC5C881/",
+      "details": {
+        "Места": "1 +12",
+        "Макс.скорость": "445",
+        "Прочность": "600"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +12 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     },
     {
       "id": "item-73",
@@ -735,7 +1071,14 @@
       "price": 18000,
       "weight": null,
       "level": 35,
-      "unlock_price": 500000
+      "unlock_price": 500000,
+      "image_url": "https://images.steamusercontent.com/ugc/14219725921990306122/BEAB6A8A730B452463D0A012B5C38585BEE85A3A/",
+      "details": {
+        "Места": "1 +1",
+        "Макс.скорость": "400",
+        "Прочность": "800"
+      },
+      "description": "Воздушная техника для роли «Пилот». Вместимость по таблице: 1 +1 (экипаж + пассажиры). Покупка каждой новой машины оплачивается отдельно."
     }
   ]
 }

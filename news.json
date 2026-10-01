@@ -1,73 +1,6 @@
 {
   "app_id": 1867240,
-  "name": "WARDOGS",
-  "developers": [
-    "BULKHEAD"
-  ],
-  "updated_at": "2026-10-01T00:35:33.759670+00:00",
-  "player_count": 176064,
-  "achievements": [
-    {
-      "name": "ACH_TUTORIAL_COMPLETED",
-      "percent": 78.6,
-      "display_name": "Это WARDOGS",
-      "description": "Пройдите обучение."
-    },
-    {
-      "name": "ACH_COMBAT_RICOCHET_KILL",
-      "percent": 24.0,
-      "display_name": "Рикошет",
-      "description": "Убейте противника рикошетом пули."
-    },
-    {
-      "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
-      "percent": 20.6,
-      "display_name": "Толстая пачка",
-      "description": "Получите 100 000 долларов чистой прибыли за одну жизнь."
-    },
-    {
-      "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
-      "percent": 13.4,
-      "display_name": "Как грубо",
-      "description": "Скрытое достижение: описание не опубликовано разработчиком."
-    },
-    {
-      "name": "ACH_COMBAT_LONG_SHOT",
-      "percent": 10.9,
-      "display_name": "Дальний выстрел",
-      "description": "Убейте противника с расстояния более 950 метров."
-    },
-    {
-      "name": "ACH_ECONOMY_TOP_CASH_EARNER",
-      "percent": 8.8,
-      "display_name": "Главный пёс",
-      "description": "Завершите матч с наибольшим заработком среди игроков всех команд."
-    },
-    {
-      "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
-      "percent": 6.9,
-      "display_name": "Не реанимировать",
-      "description": "Убейте противника разрядом дефибриллятора."
-    },
-    {
-      "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
-      "percent": 6.5,
-      "display_name": "Выживший в зоне контроля",
-      "description": "Проведите 60 минут в зоне контроля, не погибнув."
-    },
-    {
-      "name": "ACH_MATCH_CLEAN_SWEEP",
-      "percent": 5.1,
-      "display_name": "Победа всухую",
-      "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка."
-    },
-    {
-      "name": "ACH_ECONOMY_LOADOUT_SPEND",
-      "percent": 0.0,
-      "display_name": "Большие траты",
-      "description": "Потратьте 100 000 долларов на один комплект снаряжения."
-    }
-  ],
+  "updated_at": "2026-10-01T06:56:55.059909+00:00",
   "news": [
     {
       "id": "1845383656376490",
@@ -150,9 +83,5 @@
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1842846814456311"
     }
   ],
-  "sources": [
-    "https://store.steampowered.com/app/1867240/WARDOGS/",
-    "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=1867240",
-    "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=1867240"
-  ]
+  "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"
 }

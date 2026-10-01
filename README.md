@@ -1,22 +1,22 @@
-# Wardogs Stats
+# WARDOGS News
 
-WARDOGS (Steam app 1867240) statistics dashboard. Displays real Steam concurrent-player counts and global achievement percentages from a timestamped snapshot. Individual player statistics, rankings and match history are unavailable: no game API for these has been confirmed.
+Independent Russian-language news portal for WARDOGS (Steam app 1867240). Includes official developer announcements from Steam, manually prepared Russian abridged translations and links to original publications. Military camouflage theme with responsive layouts.
 
 ## Development
 
-Node.js >=22, Python >=3.12 for data refresh. No packages or API keys required for the connected endpoints.
+Node.js >=22; Python >=3.12 for refreshing the news feed. No packages or API keys are required.
 
 ```sh
 npm ci --ignore-scripts
-python3 scripts/refresh-data.py
+python3 scripts/refresh-news.py
 npm run check
 npm run dev
 ```
 
-GitHub Pages: publish `main` from `/ (root)`. All frontend paths are relative. The Refresh Steam statistics workflow refreshes the snapshot hourly and requests a Pages rebuild. Scheduled runs may be delayed; check the displayed timestamp. Workflow operation and deployment need verification in GitHub Actions. Fetch failures leave the previous snapshot unchanged.
+Default local port: 3000 (override with PORT). GitHub Pages publishes main from / (root); the frontend uses relative paths.
 
-Network: store.steampowered.com and api.steampowered.com. No Steam keys are embedded in the site. The browser reads stats.json rather than accessing Steam APIs directly.
+## News and translations
 
-## Russian achievements and official news
+scripts/refresh-news.py fetches only steam_community_announcements for WARDOGS and writes news.json. The Refresh official Wardogs news workflow runs hourly; scheduled runs can be delayed. A failed refresh retains the previous feed. Translations in news-translations-ru.json are matched against content hashes. New or edited posts show the original headline and a pending-translation notice until their Russian translation is prepared. Translation is manual, not automatic.
 
-Achievement translations are maintained in translations-ru.json. Steam community announcements are fetched hourly by scripts/refresh-data.py alongside statistics. news-translations-ru.json contains manually prepared Russian abridged translations matched to source content hashes: new or edited posts display a pending-translation notice and original link until translated. Translation is not automatic. Only the steam_community_announcements feed for app 1867240 is included.
+Required destination for updates: api.steampowered.com. Steam API keys, player statistics, achievements and match data are not used.

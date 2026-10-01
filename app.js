@@ -1,19 +1,27 @@
-const content=document.querySelector('#content');
-let stats;
-const escapeHtml=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function newsSection(){return heading('Официальные новости')+'<p>Объявления разработчиков в Steam. Русские тексты — неофициальные переводы-пересказы; полный текст доступен в оригинале.</p><div class="news-grid">'+(stats.news||[]).map(n=>`<article class="about news-card"><div class="eyebrow">${new Date(n.date*1000).toLocaleDateString('ru',{timeZone:'Europe/Moscow'})} · STEAM</div><h2>${escapeHtml(n.title)}</h2><span class="muted">${n.translated?'Русский перевод-пересказ':'Перевод готовится · оригинальный заголовок'}</span>${n.summary?'<p>'+escapeHtml(n.summary).replace(/\n\n/g,'</p><p>')+'</p>':'<p>Новая публикация получена. Русский перевод ещё не подготовлен.</p>'}<a href="${escapeHtml(n.url)}" target="_blank" rel="noopener noreferrer">Читать официальный оригинал ↗</a></article>`).join('')+'</div>'; }
-const heading=title=>`<div class="section-head"><div><div class="eyebrow">STEAM / WARDOGS</div><h2>${title}</h2></div></div>`;
-function render(tab='overview'){
- document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
- if(tab==='players'||tab==='matches'){
-  content.innerHTML=heading(tab==='players'?'Профили игроков':'История матчей')+'<div class="empty">Схема Steam WARDOGS не содержит игровых показателей (stats: []). K/D, число побед и рейтинг из этого API получить нельзя. Источник истории матчей не подтверждён. Вымышленные данные здесь не отображаются.</div>';return;
- }
- if(!stats){content.innerHTML='<div class="empty">Загружаем данные Steam…</div>';return;}
- if(tab==='news'){content.innerHTML=newsSection();return;}
- const date=new Date(stats.updated_at);
- const stale=Date.now()-date.getTime()>3*60*60*1000;
- content.innerHTML=`<div class="stats"><article><span>Игроков онлайн в Steam</span><strong>${stats.player_count.toLocaleString('ru')}</strong><small>На момент обновления</small></article><article><span>Достижения Steam</span><strong>${stats.achievements.length}</strong><small>В публичной статистике</small></article><article><span>Источник</span><strong>Steam</strong><small>App ID ${stats.app_id}</small></article><article><span>Обновлено · Москва</span><strong style="font-size:24px">${date.toLocaleTimeString('ru',{timeZone:'Europe/Moscow',hour:'2-digit',minute:'2-digit'})}</strong><small>${date.toLocaleDateString('ru',{timeZone:'Europe/Moscow'})}${stale?' · данные устарели':''}</small></article></div>${heading('Глобальные достижения')}<p>Доля игроков с достижением по данным Steam. Неофициальный русский перевод названий и описаний Steam.</p><div class="table-wrap"><table><thead><tr><th>Достижение</th><th>Получили</th></tr></thead><tbody>${stats.achievements.map(a=>`<tr><td>${escapeHtml(a.display_name||'Название пока недоступно')}<small>${escapeHtml(a.description||'Описание пока недоступно')}</small></td><td class="rating">${a.percent.toLocaleString('ru')}%</td></tr>`).join('')}</tbody></table></div><div class="bottom-grid"><article class="about"><div class="eyebrow">ПРОВЕРЯЕМЫЙ ИСТОЧНИК</div><h2>Реальные данные Steam.</h2><p>Это сохранённый снимок ответа Steam API, а не счётчик в реальном времени. Автоматическое обновление предусмотрено каждый час через GitHub Actions; фактическое время указано выше.</p><a href="https://store.steampowered.com/app/1867240/WARDOGS/" style="color:var(--lime)">WARDOGS в Steam ↗</a></article><article class="about"><div class="eyebrow">ПРОФИЛИ И МАТЧИ</div><h2>Нужен API игры.</h2><p>Общий онлайн и достижения доступны. Для сайта уровня Dotabuff нужен отдельный источник индивидуальных результатов. Проверенная схема Steam содержит только достижения, без игровых показателей.</p></article></div>${newsSection()}`;
+const content = document.querySelector('#content');
+const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const formatDate = timestamp => new Date(timestamp).toLocaleDateString('ru', {timeZone:'Europe/Moscow',day:'numeric',month:'long',year:'numeric'});
+
+function renderNews(data) {
+  document.querySelector('#feed-updated').textContent = `Лента обновлена ${formatDate(data.updated_at)} · ${new Date(data.updated_at).toLocaleTimeString('ru', {timeZone:'Europe/Moscow',hour:'2-digit',minute:'2-digit'})} МСК`;
+  if (!data.news.length) {
+    content.innerHTML = '<div class="empty">В официальной ленте пока нет публикаций.</div>';
+    return;
+  }
+  content.innerHTML = `<div class="section-head"><div><div class="eyebrow">ОБЪЯВЛЕНИЯ РАЗРАБОТЧИКОВ</div><h2>Последние новости</h2></div><span class="muted">Официальная лента Steam</span></div><div class="news-grid">${data.news.map(n => `<article class="about news-card"><div class="eyebrow"><time datetime="${new Date(n.date * 1000).toISOString()}">${formatDate(n.date * 1000)}</time> · STEAM</div><h2>${escapeHtml(n.title)}</h2><span class="muted">${n.translated ? 'Русский перевод-пересказ' : 'Перевод готовится · оригинальный заголовок'}</span>${n.summary ? '<p>' + escapeHtml(n.summary).replace(/\n\n/g, '</p><p>') + '</p>' : '<p>Эту новость ещё не перевели. Пока можно прочитать оригинал.</p>'}<a href="${escapeHtml(n.url)}" target="_blank" rel="noopener noreferrer">Читать в Steam ↗</a></article>`).join('')}</div>`;
 }
-document.addEventListener('click',e=>{const tab=e.target.closest('[data-tab]');if(tab)render(tab.dataset.tab);});
-render();
-fetch('./stats.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(data=>{if(data.app_id!==1867240||!Number.isInteger(data.player_count)||!Array.isArray(data.achievements)||!Number.isFinite(Date.parse(data.updated_at)))throw Error('Invalid statistics');stats=data;render(document.querySelector('[data-tab].active')?.dataset.tab||'overview');}).catch(()=>{content.innerHTML='<div class="empty">Не удалось загрузить статистику Steam. Попробуйте обновить страницу позже.</div>';});
+
+content.innerHTML = '<div class="empty">Загружаем новости WARDOGS…</div>';
+fetch('./news.json', {cache:'no-store'})
+  .then(response => { if (!response.ok) throw new Error('News unavailable'); return response.json(); })
+  .then(data => {
+    if (data.app_id !== 1867240 || !Array.isArray(data.news) || !Number.isFinite(Date.parse(data.updated_at))) throw new Error('Invalid news feed');
+    for (const item of data.news) {
+      if (typeof item.title !== 'string' || !Number.isFinite(item.date) || !Number.isFinite(new Date(item.date * 1000).getTime()) || typeof item.url !== 'string' || !/^https:\/\/steamcommunity\.com\/games\/1867240\/announcements\/detail\/\d+$/.test(item.url)) throw new Error('Invalid news item');
+    }
+    renderNews(data);
+  })
+  .catch(() => {
+    document.querySelector('#feed-updated').textContent = 'Лента временно недоступна';
+    content.innerHTML = '<div class="empty">Не удалось загрузить новости. Попробуйте обновить страницу позже. <a href="https://store.steampowered.com/news/app/1867240">Открыть официальную ленту Steam ↗</a></div>';
+  });

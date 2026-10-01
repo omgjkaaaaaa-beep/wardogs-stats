@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Новости WARDOGS на русском: обновления, анонсы сезонов и официальные объявления разработчиков со ссылками на источники.">
   <title>WARDOGS — Новости на русском</title>
-  <link rel="stylesheet" href="./style.css?v=news-overview-1">
-  <script src="./app.js?v=news-overview-1" defer></script>
+  <link rel="stylesheet" href="./style.css?v=tools-1">
+  <script src="./app.js?v=tools-1" defer></script>
+  <script src="./calculator.js?v=tools-1" defer></script>
 </head>
 <body>
   <header>
     <a class="logo" href="./">W<span>△</span>RDOGS <small>NEWS</small></a>
     <nav aria-label="Разделы">
       <a class="active" href="#content">Новости</a>
+      <a href="#tools">Инструменты</a>
       <a href="#achievements">Достижения</a>
       <a href="https://store.steampowered.com/app/1867240/WARDOGS/" target="_blank" rel="noopener noreferrer">Игра в Steam ↗</a>
     </nav>
@@ -27,9 +29,17 @@
     </section>
     <div class="notice">Это сайт сообщества. Переводы делаем мы, а не разработчики. В каждой новости есть ссылка на оригинал.<br><span id="feed-updated">Обновление ленты…</span></div>
     <section id="online" aria-label="Онлайн WARDOGS" aria-live="polite"></section>
-    <section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
+    <section id="tools" aria-label="Инструменты WARDOGS">
+<div class="section-head"><div><div class="eyebrow">ИНСТРУМЕНТЫ</div><h2>Расстояние по координатам</h2></div></div>
+<div class="about"><p>Скопируйте координаты орудия и цели с карты. Калькулятор покажет расстояние на плоскости и направление. Высота местности, наклон орудия и траектория снаряда не учитываются.</p>
+<form id="range-form" class="range-form"><label>Координаты орудия<input id="gun-coordinates" placeholder="x98.43, y110.38" required autocomplete="off"></label><label>Координаты цели<input id="target-coordinates" placeholder="x94.53, y109.03" required autocomplete="off"></label><label>Ось Y на карте<select id="north-axis"><option value="1">Y растёт к северу</option><option value="-1">Y растёт к югу</option></select></label><button type="submit">Рассчитать</button></form>
+<div id="range-result" aria-live="polite">Введите две пары координат.</div>
+<p class="muted">Масштаб: 1 единица координат = 100 м по руководствам сообщества. Азимут: 0° — север, 90° — восток. Проверьте направление оси Y по карте игры; при необходимости переключите его. Это геометрический расчёт, а не готовое решение баллистики.</p>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3800319041" target="_blank" rel="noopener noreferrer">Как снять координаты в игре ↗</a></div>
+</section>
+<section id="content" aria-label="Новости WARDOGS" aria-live="polite"></section>
     <section id="achievements" aria-label="Достижения WARDOGS" aria-live="polite"></section>
-    <footer><span>WARDOGS NEWS / независимый проект</span><span>NEWS / 01</span></footer>
+    <footer><span>WARDOGS NEWS / независимый проект</span><span>TOOLS / 01</span></footer>
   </main>
 </body>
 </html>

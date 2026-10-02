@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-02T00:48:00.760424+00:00",
+  "updated_at": "2026-10-02T07:00:57.917730+00:00",
   "news": [
+    {
+      "id": "1845383656384445",
+      "title": "WARDOGS | Security & Stability Hotfix",
+      "summary": null,
+      "translated": false,
+      "date": 1790900035,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656384445"
+    },
     {
       "id": "1845383656376490",
       "title": "WARDOGS: обновление 0.1.2",
@@ -73,14 +81,6 @@
       "translated": false,
       "date": 1788993969,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262690549"
-    },
-    {
-      "id": "1842846814456311",
-      "title": "The 11th Reason NOT To Buy WARDOGS",
-      "summary": null,
-      "translated": false,
-      "date": 1788886862,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1842846814456311"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-02T13:52:30.163184+00:00",
+  "updated_at": "2026-10-02T19:19:09.653617+00:00",
   "news": [
+    {
+      "id": "1845383656386801",
+      "title": "IR Goggles & CWIS Balance Hotfix",
+      "summary": null,
+      "translated": false,
+      "date": 1790955572,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656386801"
+    },
     {
       "id": "1845383656384445",
       "title": "WARDOGS | Security & Stability Hotfix",
@@ -73,14 +81,6 @@
       "translated": false,
       "date": 1789035886,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262691760"
-    },
-    {
-      "id": "1843481262690549",
-      "title": "Pre-Load Live & Season 1 Changelog",
-      "summary": null,
-      "translated": false,
-      "date": 1788993969,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262690549"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

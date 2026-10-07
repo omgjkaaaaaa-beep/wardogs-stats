@@ -1,25 +1,25 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-07T14:34:12.587871+00:00",
-  "player_count": 130012,
+  "updated_at": "2026-10-07T20:38:15.458486+00:00",
+  "player_count": 158259,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "title": "Это WARDOGS",
       "description": "Пройдите обучение.",
-      "percent": 79.1
+      "percent": 79.2
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 25.4
+      "percent": 25.5
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "title": "Толстая пачка",
       "description": "Получите 100 000 долларов чистой прибыли за одну жизнь.",
-      "percent": 22.1
+      "percent": 22.2
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
@@ -31,7 +31,7 @@
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.1
+      "percent": 12.2
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
@@ -43,7 +43,7 @@
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
       "title": "Не реанимировать",
       "description": "Убейте противника разрядом дефибриллятора.",
-      "percent": 8.0
+      "percent": 8.1
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",

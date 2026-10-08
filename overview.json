@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-08T07:25:54.493824+00:00",
-  "player_count": 67123,
+  "updated_at": "2026-10-08T15:37:48.424803+00:00",
+  "player_count": 130957,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -31,7 +31,7 @@
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.2
+      "percent": 12.3
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
@@ -43,7 +43,7 @@
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
       "title": "Не реанимировать",
       "description": "Убейте противника разрядом дефибриллятора.",
-      "percent": 8.1
+      "percent": 8.2
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",

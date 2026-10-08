@@ -1,13 +1,13 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-08T15:37:48.424803+00:00",
-  "player_count": 130957,
+  "updated_at": "2026-10-08T21:20:35.791207+00:00",
+  "player_count": 139208,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "title": "Это WARDOGS",
       "description": "Пройдите обучение.",
-      "percent": 79.2
+      "percent": 79.1
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",

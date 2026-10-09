@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-09T16:13:19.461960+00:00",
+  "updated_at": "2026-10-09T20:56:12.711669+00:00",
   "news": [
+    {
+      "id": "1846018067933823",
+      "title": "WARDOGS | Season 02 Preview",
+      "summary": null,
+      "translated": false,
+      "date": 1791561614,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1846018067933823"
+    },
     {
       "id": "1845383656386801",
       "title": "IR Goggles & CIWS Balance Hotfix",
@@ -73,14 +81,6 @@
       "translated": false,
       "date": 1789071633,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693332"
-    },
-    {
-      "id": "1843481262691760",
-      "title": "WARDOGS LAUNCH TRAILER",
-      "summary": null,
-      "translated": false,
-      "date": 1789035886,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262691760"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

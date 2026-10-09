@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-09T16:13:20.655341+00:00",
-  "player_count": 137727,
+  "updated_at": "2026-10-09T20:56:13.203909+00:00",
+  "player_count": 175989,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -49,13 +49,13 @@
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
       "title": "Выживший в зоне контроля",
       "description": "Проведите 60 минут в зоне контроля, не погибнув.",
-      "percent": 7.2
+      "percent": 7.3
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "title": "Победа всухую",
       "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка.",
-      "percent": 6.7
+      "percent": 6.8
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

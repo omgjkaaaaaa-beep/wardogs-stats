@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-10T18:36:29.859781+00:00",
-  "player_count": 179859,
+  "updated_at": "2026-10-10T22:32:46.094118+00:00",
+  "player_count": 166306,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -13,7 +13,7 @@
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 25.9
+      "percent": 26.0
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
@@ -31,31 +31,31 @@
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.5
+      "percent": 12.6
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "title": "Главный пёс",
       "description": "Завершите матч с наибольшим заработком среди игроков всех команд.",
-      "percent": 9.4
+      "percent": 9.5
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
       "title": "Не реанимировать",
       "description": "Убейте противника разрядом дефибриллятора.",
-      "percent": 8.4
+      "percent": 8.5
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
       "title": "Выживший в зоне контроля",
       "description": "Проведите 60 минут в зоне контроля, не погибнув.",
-      "percent": 7.3
+      "percent": 7.4
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "title": "Победа всухую",
       "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка.",
-      "percent": 6.9
+      "percent": 7.0
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

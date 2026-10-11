@@ -1,13 +1,13 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-11T15:41:35.692752+00:00",
-  "player_count": 176952,
+  "updated_at": "2026-10-11T20:17:22.322714+00:00",
+  "player_count": 189797,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "title": "Это WARDOGS",
       "description": "Пройдите обучение.",
-      "percent": 79.4
+      "percent": 79.3
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
@@ -31,7 +31,7 @@
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.7
+      "percent": 12.6
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",

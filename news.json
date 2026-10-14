@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-14T11:53:11.369050+00:00",
+  "updated_at": "2026-10-14T17:11:26.195956+00:00",
   "news": [
+    {
+      "id": "1846651706674560",
+      "title": "WARDOGS | Season 02 Patch Notes",
+      "summary": null,
+      "translated": false,
+      "date": 1791989977,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1846651706674560"
+    },
     {
       "id": "1846018067933823",
       "title": "WARDOGS | Season 02 Preview",
@@ -73,14 +81,6 @@
       "translated": false,
       "date": 1789088725,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693807"
-    },
-    {
-      "id": "1843481262693332",
-      "title": "Launch Stability Hotfix #1",
-      "summary": null,
-      "translated": false,
-      "date": 1789071633,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693332"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

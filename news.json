@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-15T09:55:31.436987+00:00",
+  "updated_at": "2026-10-15T15:01:47.354469+00:00",
   "news": [
+    {
+      "id": "1846651706677015",
+      "title": "WARDOGS | SEASON 02 IS NOW LIVE",
+      "summary": null,
+      "translated": false,
+      "date": 1792058352,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1846651706677015"
+    },
     {
       "id": "1846651706674560",
       "title": "WARDOGS | Season 02 Patch Notes",
@@ -73,14 +81,6 @@
       "translated": true,
       "date": 1789251999,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262698449"
-    },
-    {
-      "id": "1843481262693807",
-      "title": "1.25 MILLION COPIES SOLD!",
-      "summary": null,
-      "translated": false,
-      "date": 1789088725,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262693807"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

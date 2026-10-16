@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-16T12:25:48.479222+00:00",
-  "player_count": 187776,
+  "updated_at": "2026-10-16T17:24:36.224487+00:00",
+  "player_count": 264570,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -25,19 +25,19 @@
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
       "title": "Как грубо",
       "description": "Скрытое достижение: описание не опубликовано разработчиком.",
-      "percent": 14.0
+      "percent": 13.9
     },
     {
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.8
+      "percent": 12.7
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "title": "Главный пёс",
       "description": "Завершите матч с наибольшим заработком среди игроков всех команд.",
-      "percent": 9.6
+      "percent": 9.5
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",

@@ -1,25 +1,25 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-17T09:22:02.807866+00:00",
-  "player_count": 162080,
+  "updated_at": "2026-10-17T13:43:29.365231+00:00",
+  "player_count": 240970,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "title": "Это WARDOGS",
       "description": "Пройдите обучение.",
-      "percent": 79.4
+      "percent": 79.3
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 26.2
+      "percent": 25.9
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "title": "Толстая пачка",
       "description": "Получите 100 000 долларов чистой прибыли за одну жизнь.",
-      "percent": 22.8
+      "percent": 22.6
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
@@ -31,31 +31,31 @@
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 12.7
+      "percent": 12.5
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "title": "Главный пёс",
       "description": "Завершите матч с наибольшим заработком среди игроков всех команд.",
-      "percent": 9.5
+      "percent": 9.4
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
       "title": "Не реанимировать",
       "description": "Убейте противника разрядом дефибриллятора.",
-      "percent": 8.7
+      "percent": 8.4
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
       "title": "Выживший в зоне контроля",
       "description": "Проведите 60 минут в зоне контроля, не погибнув.",
-      "percent": 7.5
+      "percent": 7.3
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "title": "Победа всухую",
       "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка.",
-      "percent": 7.2
+      "percent": 6.9
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

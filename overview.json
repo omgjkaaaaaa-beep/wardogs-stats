@@ -1,43 +1,49 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-10-24T14:33:34.849315+00:00",
-  "player_count": 162552,
+  "updated_at": "2026-10-24T18:09:54.715391+00:00",
+  "player_count": 183543,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
       "title": "Это WARDOGS",
       "description": "Пройдите обучение.",
-      "percent": 80.8
+      "percent": 81.0
     },
     {
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 27.8
+      "percent": 28.7
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "title": "Толстая пачка",
       "description": "Получите 100 000 долларов чистой прибыли за одну жизнь.",
-      "percent": 24.6
+      "percent": 25.6
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
       "title": "Как грубо",
       "description": "Скрытое достижение: описание не опубликовано разработчиком.",
-      "percent": 17.4
+      "percent": 17.6
     },
     {
       "name": "ACH_COMBAT_LONG_SHOT",
       "title": "Дальний выстрел",
       "description": "Убейте противника с расстояния более 950 метров.",
-      "percent": 13.0
+      "percent": 13.3
     },
     {
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "title": "Главный пёс",
       "description": "Завершите матч с наибольшим заработком среди игроков всех команд.",
-      "percent": 10.0
+      "percent": 10.4
+    },
+    {
+      "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
+      "title": "Выживший в зоне контроля",
+      "description": "Проведите 60 минут в зоне контроля, не погибнув.",
+      "percent": 9.2
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
@@ -46,16 +52,10 @@
       "percent": 8.9
     },
     {
-      "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
-      "title": "Выживший в зоне контроля",
-      "description": "Проведите 60 минут в зоне контроля, не погибнув.",
-      "percent": 8.5
-    },
-    {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "title": "Победа всухую",
       "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка.",
-      "percent": 7.9
+      "percent": 8.4
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

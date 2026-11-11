@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-11T15:12:40.119571+00:00",
+  "updated_at": "2026-11-11T21:58:18.419972+00:00",
   "news": [
+    {
+      "id": "1849192144179736",
+      "title": "WARDOGS | Season 03 Patch Notes",
+      "summary": null,
+      "translated": false,
+      "date": 1794419963,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1849192144179736"
+    },
     {
       "id": "1848664643347097",
       "title": "WARDOGS | Road to Season 3",
@@ -73,14 +81,6 @@
       "translated": true,
       "date": 1790096018,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844115010504839"
-    },
-    {
-      "id": "1843481262705755",
-      "title": "WARDOGS: два миллиона проданных копий",
-      "summary": "Разработчики объявили о двух миллионах проданных копий и поблагодарили сообщество за первые выходные после запуска. По словам команды, наблюдать за тем, как игроки играют с друзьями, было особенно приятно. В оригинале опубликована инфографика с итогами запуска; её числовые данные в этот пересказ не включены.",
-      "translated": true,
-      "date": 1789508698,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1843481262705755"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

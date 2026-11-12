@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-12T11:11:47.663753+00:00",
+  "updated_at": "2026-11-12T18:56:58.845516+00:00",
   "news": [
+    {
+      "id": "1849192144183254",
+      "title": "WARDOGS | SEASON 03 IS NOW LIVE",
+      "summary": null,
+      "translated": false,
+      "date": 1794495635,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1849192144183254"
+    },
     {
       "id": "1849192144179736",
       "title": "WARDOGS | Season 03 Patch Notes",
@@ -73,14 +81,6 @@
       "translated": true,
       "date": 1790446624,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844751498227777"
-    },
-    {
-      "id": "1844115010504839",
-      "title": "Второй сезон: тизер и дата выхода",
-      "summary": "Разработчики анонсировали второй сезон WARDOGS: он выйдет 15 октября 2026 года. В публикации представлен видеотизер; дополнительные подробности обещаны позднее.",
-      "translated": true,
-      "date": 1790096018,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844115010504839"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

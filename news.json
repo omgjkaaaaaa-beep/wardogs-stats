@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-19T13:08:15.657939+00:00",
+  "updated_at": "2026-11-19T21:35:23.495149+00:00",
   "news": [
+    {
+      "id": "1849827110428606",
+      "title": "WARDOGS | Minor Balance Patch 0.31 - Pricing Change",
+      "summary": null,
+      "translated": false,
+      "date": 1795099243,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1849827110428606"
+    },
     {
       "id": "1849192144183254",
       "title": "WARDOGS | SEASON 03 IS NOW LIVE",
@@ -73,14 +81,6 @@
       "translated": true,
       "date": 1790751426,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656376490"
-    },
-    {
-      "id": "1844751498227777",
-      "title": "Три миллиона проданных копий и номинация Golden Joystick",
-      "summary": "За чуть больше двух недель раннего доступа WARDOGS достигла трёх миллионов проданных копий. Разработчики поблагодарили игроков за поддержку.\n\nИгра номинирована на Golden Joystick Awards в категории «Лучшая игра раннего доступа 2026». Команда приглашает игроков проголосовать и показывает подборку моментов сообщества #WARDOGS100k за вторую неделю. Разработка второго сезона продолжается; новые подробности обещаны на следующей неделе.",
-      "translated": true,
-      "date": 1790446624,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1844751498227777"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

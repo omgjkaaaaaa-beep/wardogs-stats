@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-19T21:35:23.815639+00:00",
-  "player_count": 67048,
+  "updated_at": "2026-11-20T03:15:35.898115+00:00",
+  "player_count": 53046,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -13,7 +13,7 @@
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 31.2
+      "percent": 31.1
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
@@ -61,7 +61,7 @@
       "name": "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
       "title": "Новое достижение",
       "description": "Описание ещё не перевели.",
-      "percent": 0.7
+      "percent": 0.6
     },
     {
       "name": "ACH_LOGISTICS_CAR_JACKER",

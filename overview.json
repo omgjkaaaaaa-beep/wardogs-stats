@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-20T20:20:53.613396+00:00",
-  "player_count": 77128,
+  "updated_at": "2026-11-21T02:15:29.529031+00:00",
+  "player_count": 57877,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -19,7 +19,7 @@
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "title": "Толстая пачка",
       "description": "Получите 100 000 долларов чистой прибыли за одну жизнь.",
-      "percent": 27.5
+      "percent": 27.4
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
@@ -67,7 +67,7 @@
       "name": "ACH_LOGISTICS_CAR_JACKER",
       "title": "Новое достижение",
       "description": "Описание ещё не перевели.",
-      "percent": 0.3
+      "percent": 0.2
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

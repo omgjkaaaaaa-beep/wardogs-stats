@@ -1,7 +1,15 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-24T06:03:37.109024+00:00",
+  "updated_at": "2026-11-24T17:45:58.329195+00:00",
   "news": [
+    {
+      "id": "1849827110446785",
+      "title": "Nominate WARDOGS in The Steam Awards",
+      "summary": null,
+      "translated": false,
+      "date": 1795536578,
+      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1849827110446785"
+    },
     {
       "id": "1849827110441874",
       "title": "WARDOGS | NVIDIA GPU Drivers Issue",
@@ -73,14 +81,6 @@
       "translated": false,
       "date": 1790955572,
       "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656386801"
-    },
-    {
-      "id": "1845383656384445",
-      "title": "WARDOGS | Security & Stability Hotfix",
-      "summary": null,
-      "translated": false,
-      "date": 1790900035,
-      "url": "https://steamcommunity.com/games/1867240/announcements/detail/1845383656384445"
     }
   ],
   "source": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1867240&count=10&maxlength=0&feeds=steam_community_announcements"

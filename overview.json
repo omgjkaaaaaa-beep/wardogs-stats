@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-25T02:30:00.231368+00:00",
-  "player_count": 45765,
+  "updated_at": "2026-11-25T12:56:29.424155+00:00",
+  "player_count": 36053,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -67,7 +67,7 @@
       "name": "ACH_LOGISTICS_CAR_JACKER",
       "title": "Новое достижение",
       "description": "Описание ещё не перевели.",
-      "percent": 0.6
+      "percent": 0.5
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",

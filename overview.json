@@ -1,7 +1,7 @@
 {
   "app_id": 1867240,
-  "updated_at": "2026-11-26T05:05:19.100139+00:00",
-  "player_count": 41378,
+  "updated_at": "2026-11-26T15:17:49.691951+00:00",
+  "player_count": 45112,
   "achievements": [
     {
       "name": "ACH_TUTORIAL_COMPLETED",
@@ -13,13 +13,13 @@
       "name": "ACH_COMBAT_RICOCHET_KILL",
       "title": "Рикошет",
       "description": "Убейте противника рикошетом пули.",
-      "percent": 31.4
+      "percent": 31.6
     },
     {
       "name": "ACH_ECONOMY_SINGLE_LIFE_PROFIT",
       "title": "Толстая пачка",
       "description": "Получите 100 000 долларов чистой прибыли за одну жизнь.",
-      "percent": 27.7
+      "percent": 27.8
     },
     {
       "name": "ACH_TUTORIAL_PUNCH_KRISTOPHER",
@@ -37,19 +37,19 @@
       "name": "ACH_ECONOMY_TOP_CASH_EARNER",
       "title": "Главный пёс",
       "description": "Завершите матч с наибольшим заработком среди игроков всех команд.",
-      "percent": 11.5
+      "percent": 11.6
     },
     {
       "name": "ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR",
       "title": "Выживший в зоне контроля",
       "description": "Проведите 60 минут в зоне контроля, не погибнув.",
-      "percent": 10.9
+      "percent": 11.0
     },
     {
       "name": "ACH_MATCH_CLEAN_SWEEP",
       "title": "Победа всухую",
       "description": "Выиграйте матч, не позволив другим командам заработать ни одного очка.",
-      "percent": 10.5
+      "percent": 10.6
     },
     {
       "name": "ACH_COMBAT_DEFIBRILLATOR_KILL",
@@ -61,31 +61,31 @@
       "name": "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
       "title": "Новое достижение",
       "description": "Описание ещё не перевели.",
-      "percent": 1.0
+      "percent": 1.3
     },
     {
       "name": "ACH_LOGISTICS_CAR_JACKER",
       "title": "Новое достижение",
       "description": "Описание ещё не перевели.",
-      "percent": 0.5
+      "percent": 0.6
+    },
+    {
+      "name": "ACH_COMBAT_HES_BEHIND_YOU",
+      "title": "Новое достижение",
+      "description": "Описание ещё не перевели.",
+      "percent": 0.1
+    },
+    {
+      "name": "ACH_HOTZONE_SLOT_MACHINE",
+      "title": "Новое достижение",
+      "description": "Описание ещё не перевели.",
+      "percent": 0.1
     },
     {
       "name": "ACH_ECONOMY_LOADOUT_SPEND",
       "title": "Большие траты",
       "description": "Потратьте 100 000 долларов на один комплект снаряжения.",
       "percent": 0.1
-    },
-    {
-      "name": "ACH_COMBAT_HES_BEHIND_YOU",
-      "title": "Новое достижение",
-      "description": "Описание ещё не перевели.",
-      "percent": 0.0
-    },
-    {
-      "name": "ACH_HOTZONE_SLOT_MACHINE",
-      "title": "Новое достижение",
-      "description": "Описание ещё не перевели.",
-      "percent": 0.0
     }
   ]
 }
